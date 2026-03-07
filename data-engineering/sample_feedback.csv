@@ -1,0 +1,201 @@
+date,customer_id,product,rating,channel,comment
+2026-01-06,6813,Gadget Y,3,email,Good value for money
+2025-12-10,5107,Gadget X,2,in-store,Needs improvement
+2025-12-13,5049,Gadget X,5,online,Great product
+2026-02-18,7568,Service Pro,1,in-store,Great product
+2026-02-07,7234,Gadget Y,5,in-store,Excellent service
+2026-01-28,4862,Widget B,4,online,Needs improvement
+2026-02-28,9336,Gadget X,4,email,Not satisfied
+2025-12-26,5166,Gadget Y,3,email,Would recommend
+2026-02-04,5941,Widget A,4,in-store,Average experience
+2025-12-28,8872,Gadget X,3,email,Excellent service
+2026-02-05,4420,Service Pro,4,email,Average experience
+2026-01-11,1940,Widget B,2,in-store,Delivery was slow
+2026-01-22,5594,Widget A,4,online,Great product
+2026-02-16,4155,Widget B,5,online,Great product
+2025-12-07,3067,Gadget X,3,online,Good value for money
+2026-01-15,1508,Widget B,2,online,Excellent service
+2026-02-10,9934,Widget B,1,in-store,Great product
+2026-02-24,3419,Service Pro,5,in-store,Good value for money
+2025-12-27,5333,Widget A,5,in-store,
+2026-01-04,1719,Widget B,4,email,Needs improvement
+2026-03-02,4608,Widget A,5,email,Would recommend
+2026-01-07,3544,Service Pro,4,in-store,
+2026-02-08,5260,Widget A,5,in-store,Would recommend
+2026-01-20,2394,Gadget X,2,email,Would recommend
+2026-02-27,6489,Service Pro,5,in-store,Needs improvement
+2026-02-20,5940,Gadget Y,4,in-store,Good value for money
+2026-01-18,3029,Service Pro,2,online,Would recommend
+2026-02-19,2469,Widget B,2,in-store,Would recommend
+2026-01-10,3213,Gadget Y,2,online,Would recommend
+2026-02-23,3655,Gadget X,5,email,Excellent service
+2026-03-07,2815,Widget A,3,in-store,Excellent service
+2025-12-22,3968,Service Pro,3,online,Needs improvement
+2026-02-15,5822,Gadget X,1,online,Average experience
+2026-01-29,9688,Gadget Y,5,in-store,Not satisfied
+2026-02-21,1218,Service Pro,1,email,Would recommend
+2026-02-09,9929,Widget B,4,in-store,Not satisfied
+2025-12-11,7463,Widget B,5,online,Would recommend
+2026-02-17,2573,Widget A,2,in-store,Excellent service
+2025-12-27,3917,Gadget X,3,in-store,
+2026-03-06,1569,Widget B,1,email,Good value for money
+2025-12-15,4590,Gadget X,3,in-store,
+2026-01-03,7636,Widget A,4,online,Would recommend
+2025-12-25,4415,Gadget Y,3,online,Excellent service
+2026-02-28,3765,Widget A,1,in-store,Needs improvement
+2026-01-03,5811,Widget A,2,in-store,Would recommend
+2025-12-27,8897,Widget B,1,email,Great product
+2026-02-15,5927,Gadget X,1,online,Excellent service
+2025-12-21,8013,Widget B,4,email,Would recommend
+2026-02-27,3123,Service Pro,1,online,Not satisfied
+2026-02-20,1867,Widget A,1,in-store,Good value for money
+2026-01-04,1750,Gadget X,3,in-store,Not satisfied
+2026-01-29,7425,Gadget X,3,in-store,
+2025-12-30,5614,Widget B,1,in-store,Average experience
+2026-01-24,3372,Widget B,3,email,Needs improvement
+2025-12-13,3088,Service Pro,3,in-store,
+2025-12-14,8105,Widget B,4,email,Needs improvement
+2025-12-21,7730,Widget A,5,in-store,Delivery was slow
+2026-01-07,5177,Gadget Y,2,online,Not satisfied
+2026-02-17,9763,Widget B,4,online,Excellent service
+2025-12-14,6883,Widget B,2,in-store,Great product
+2026-03-03,9839,Widget B,5,online,Not satisfied
+2026-01-19,8193,Gadget Y,5,online,Not satisfied
+2025-12-24,7752,Widget A,5,in-store,Great product
+2026-01-02,1895,Widget A,3,in-store,Would recommend
+2026-02-08,3128,Gadget Y,4,email,Would recommend
+2026-01-01,4004,Service Pro,1,online,Delivery was slow
+2026-01-03,3830,Gadget Y,5,online,Great product
+2026-01-10,7016,Service Pro,5,in-store,
+2026-01-16,4472,Gadget X,2,email,Good value for money
+2026-01-20,5136,Widget A,2,in-store,Delivery was slow
+2026-02-11,6026,Gadget X,5,in-store,
+2025-12-07,5123,Widget A,3,email,Average experience
+2026-01-14,6602,Gadget X,2,email,
+2026-02-01,2498,Gadget X,2,email,Excellent service
+2026-01-18,6300,Gadget Y,1,in-store,Not satisfied
+2026-01-10,5510,Gadget X,4,email,Average experience
+2026-03-06,8679,Widget B,4,in-store,Not satisfied
+2025-12-16,5607,Gadget X,1,in-store,Average experience
+2025-12-26,7735,Service Pro,5,email,Needs improvement
+2026-01-07,9161,Widget B,4,in-store,Good value for money
+2025-12-20,7222,Service Pro,3,email,Not satisfied
+2026-03-06,9824,Gadget Y,2,email,Would recommend
+2025-12-08,5464,Service Pro,1,online,Not satisfied
+2025-12-12,3205,Widget A,1,online,Good value for money
+2026-02-23,6723,Gadget Y,2,in-store,Delivery was slow
+2026-02-20,2724,Gadget X,3,in-store,Would recommend
+2025-12-22,9375,Widget A,4,online,Great product
+2026-02-16,8819,Gadget X,1,in-store,Delivery was slow
+2026-02-12,5309,Gadget Y,1,email,Delivery was slow
+2026-02-06,5959,Widget A,2,online,Good value for money
+2025-12-31,6250,Gadget Y,2,in-store,Great product
+2025-12-16,9212,Service Pro,2,in-store,Good value for money
+2026-01-17,1559,Gadget Y,2,in-store,Would recommend
+2026-02-19,5318,Widget B,5,email,Would recommend
+2025-12-12,1517,Gadget X,1,online,Needs improvement
+2026-03-05,1201,Widget A,1,email,Average experience
+2026-01-12,8947,Widget A,1,online,Needs improvement
+2026-01-26,4736,Gadget Y,1,email,Average experience
+2026-01-22,9866,Gadget Y,1,email,Great product
+2025-12-26,9953,Widget B,2,online,Good value for money
+2026-01-31,2549,Service Pro,4,email,Not satisfied
+2026-01-18,6389,Service Pro,1,email,
+2026-03-07,5971,Service Pro,2,email,Delivery was slow
+2025-12-10,9684,Widget A,1,online,Good value for money
+2026-01-03,4123,Gadget Y,3,online,Excellent service
+2026-02-20,7603,Gadget X,4,in-store,
+2025-12-17,4226,Gadget X,2,in-store,Average experience
+2026-01-01,5141,Gadget X,4,online,Excellent service
+2026-01-28,9052,Gadget Y,4,email,Excellent service
+2026-02-11,8263,Gadget Y,1,online,Not satisfied
+2026-01-30,6997,Gadget X,1,email,Excellent service
+2026-01-21,5111,Widget B,3,in-store,
+2026-01-18,9558,Widget A,5,online,Good value for money
+2025-12-10,2131,Gadget Y,4,email,
+2025-12-10,3350,Widget A,4,email,Good value for money
+2025-12-31,8176,Widget A,5,online,Good value for money
+2026-02-11,2703,Gadget Y,4,email,
+2026-01-03,8398,Widget A,1,online,Needs improvement
+2025-12-07,9075,Widget A,1,in-store,Delivery was slow
+2026-01-05,7428,Widget B,4,email,Needs improvement
+2025-12-16,6113,Service Pro,1,email,Excellent service
+2025-12-09,5104,Gadget X,5,online,Good value for money
+2025-12-16,2070,Service Pro,3,in-store,Needs improvement
+2026-01-17,9899,Widget B,2,email,Great product
+2026-03-07,4168,Service Pro,5,email,Delivery was slow
+2025-12-22,6779,Gadget X,1,online,Excellent service
+2026-02-24,4949,Widget B,2,in-store,Average experience
+2026-02-02,6221,Gadget X,3,email,Delivery was slow
+2026-02-15,3542,Gadget Y,3,in-store,Needs improvement
+2025-12-18,1333,Gadget X,5,email,Great product
+2026-02-24,1406,Widget B,5,in-store,Needs improvement
+2025-12-17,8090,Service Pro,2,online,Great product
+2025-12-27,5831,Widget A,4,email,Not satisfied
+2026-02-16,1047,Gadget Y,1,online,
+2026-01-17,5611,Gadget Y,3,online,Needs improvement
+2026-01-20,4477,Gadget X,4,in-store,Average experience
+2026-03-02,5490,Widget A,1,online,Good value for money
+2026-02-20,4063,Service Pro,3,email,Delivery was slow
+2026-02-17,5574,Gadget X,3,in-store,Would recommend
+2026-01-17,1226,Gadget X,4,in-store,Excellent service
+2026-01-02,9612,Widget A,1,email,Average experience
+2026-02-24,6582,Gadget Y,2,online,Would recommend
+2025-12-21,8823,Gadget X,2,online,Average experience
+2025-12-17,7472,Service Pro,1,in-store,Average experience
+2026-01-15,5712,Widget A,3,in-store,
+2025-12-15,7084,Widget A,2,in-store,Excellent service
+2026-03-02,2195,Service Pro,3,email,Needs improvement
+2025-12-26,9202,Gadget X,4,online,Needs improvement
+2026-01-19,8777,Service Pro,2,email,Good value for money
+2026-02-07,8979,Gadget Y,2,online,Average experience
+2025-12-20,6662,Gadget X,2,online,Excellent service
+2026-01-21,6382,Widget A,5,in-store,Good value for money
+2026-02-15,3817,Widget B,3,in-store,Good value for money
+2025-12-20,9898,Gadget Y,3,email,Excellent service
+2026-03-05,6472,Widget A,1,in-store,Would recommend
+2026-01-22,7578,Service Pro,4,in-store,Delivery was slow
+2026-01-20,1720,Service Pro,3,email,
+2026-03-06,4629,Widget B,4,in-store,Excellent service
+2025-12-11,3813,Gadget Y,3,in-store,Great product
+2026-03-04,4166,Widget B,2,email,
+2025-12-25,5953,Widget B,2,online,Would recommend
+2026-02-13,7206,Gadget Y,4,email,Good value for money
+2025-12-10,5360,Gadget Y,1,online,
+2026-01-04,5052,Service Pro,2,email,Good value for money
+2026-02-21,9972,Widget B,4,in-store,Great product
+2025-12-09,2136,Widget B,2,online,Needs improvement
+2026-02-16,7768,Gadget X,4,in-store,Needs improvement
+2026-01-31,8536,Widget A,2,email,Average experience
+2026-02-02,7143,Service Pro,4,email,Needs improvement
+2026-01-20,4614,Widget A,4,online,Would recommend
+2026-02-11,1422,Widget B,1,email,Would recommend
+2026-01-11,3094,Widget A,2,in-store,
+2026-01-11,9961,Gadget Y,2,online,Needs improvement
+2025-12-09,3276,Gadget Y,1,in-store,Delivery was slow
+2026-02-02,1007,Gadget X,3,online,Not satisfied
+2025-12-21,9345,Gadget Y,1,online,Needs improvement
+2026-01-11,9330,Widget B,2,in-store,Would recommend
+2026-01-18,3677,Gadget X,1,email,Needs improvement
+2026-02-03,2605,Gadget X,3,in-store,Average experience
+2026-01-26,9066,Widget A,2,in-store,
+2025-12-16,4581,Gadget Y,1,online,Average experience
+2026-03-02,4040,Service Pro,5,email,Great product
+2026-01-13,8422,Service Pro,1,in-store,
+2026-03-03,2717,Gadget X,5,email,Good value for money
+2026-01-09,3407,Service Pro,1,online,
+2026-01-16,9681,Gadget X,3,in-store,Would recommend
+2026-01-13,7623,Service Pro,1,online,Needs improvement
+2025-12-09,4671,Widget A,3,online,Great product
+2025-12-11,6357,Gadget Y,4,email,Average experience
+2026-02-15,6537,Widget B,3,online,Great product
+2026-02-20,9870,Service Pro,4,online,Would recommend
+2026-01-25,2363,Widget B,3,email,Good value for money
+2025-12-22,8437,Gadget Y,5,online,Good value for money
+2025-12-23,1073,Widget A,1,email,Average experience
+2025-12-25,8129,Widget A,5,email,Great product
+2026-01-13,1667,Widget A,3,email,Needs improvement
+2026-02-15,5271,Service Pro,3,in-store,Delivery was slow
+2026-01-24,1933,Service Pro,5,online,Not satisfied
+2026-02-01,8319,Gadget X,3,online,Average experience
+2026-01-12,3505,Gadget X,4,in-store,Excellent service

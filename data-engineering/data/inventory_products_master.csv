@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_price_ghs,supplier,reorder_level,is_active
+PROD-001,Nike Air Max Sneakers,Sportswear,320.0,GoldCoast Sports,10,TRUE
+PROD-002,Adidas Running Shorts,Sportswear,85.0,GoldCoast Sports,23,TRUE
+PROD-003,Samsung Galaxy A54,Technology,1850.0,TechHub Ghana,25,TRUE
+PROD-004,Apple AirPods Pro,Technology,1200.0,Ighana Electronics,29,TRUE
+PROD-005,Puma Training T-Shirt,Sportswear,75.0,GoldCoast Sports,13,TRUE
+PROD-006,Tecno Camon 20 Smartphone,Technology,980.0,Ighana Electronics,24,TRUE
+PROD-007,Under Armour Compression Tights,Sportswear,110.0,GoldCoast Sports,28,TRUE
+PROD-008,JBL Bluetooth Speaker,Technology,450.0,TechHub Ghana,19,TRUE
+PROD-009,Reebok Classic Football Boots,Sportswear,260.0,Accra Athletics Co.,16,TRUE
+PROD-010,Lenovo IdeaPad Laptop,Technology,3200.0,TechHub Ghana,24,TRUE
+PROD-011,Speedo Swim Goggles,Sportswear,55.0,GoldCoast Sports,22,TRUE
+PROD-012,Xiaomi Smart Band 8,Technology,220.0,TechHub Ghana,16,TRUE
+PROD-013,New Balance Running Shoes,Sportswear,295.0,Accra Athletics Co.,13,TRUE
+PROD-014,Anker USB-C Charging Hub,Technology,180.0,Digital City Accra,24,TRUE
+PROD-015,Wilson Tennis Racket,Sportswear,340.0,Accra Athletics Co.,30,TRUE

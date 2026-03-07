@@ -1,0 +1,521 @@
+review_id,customer_id,customer_name,region,product_id,product_name,category,rating,review_text,review_date,week_number,verified_purchase
+REV-00001,CUST-39256,Kojo Appiah,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,Excellent product! Really happy with my purchase from the Accra store.,2025-01-05,1,Yes
+REV-00002,CUST-38657,Kwabena Asamoah,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,"Great quality, fast delivery. Will definitely order again.",2024-12-22,51,Yes
+REV-00003,CUST-68878,Afia Mensah,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-01-03,1,Yes
+REV-00004,CUST-38221,Patience Appiah,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-28,52,Yes
+REV-00005,CUST-44671,Kofi Dosimey,Accra,PROD-007,Under Armour Compression Tights,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-09,6,Yes
+REV-00006,CUST-92397,Josephine Quaye,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,The Wilson Tennis Racket exceeded my expectations. Worth every pesewa.,2025-03-03,10,Yes
+REV-00007,CUST-40512,Kweku Laryea,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,4,Impressive build quality. Works exactly as described.,2024-12-20,51,Yes
+REV-00008,CUST-56566,Adjoa Eshun,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-01-17,3,Yes
+REV-00009,CUST-70589,Ernest Eshun,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Top quality item. Customer service was also very helpful.,2024-12-28,52,Yes
+REV-00010,CUST-14207,Bright Nkrumah,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-03-02,9,Yes
+REV-00011,CUST-95909,Regina Nkrumah,Accra,PROD-002,Adidas Running Shorts,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-02,1,No
+REV-00012,CUST-83579,Francis Dompreh,Kumasi,PROD-003,Samsung Galaxy A54,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-02-23,8,No
+REV-00013,CUST-28131,Solomon Essien,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-01-03,1,Yes
+REV-00014,CUST-30969,Grace Acheampong,Accra,PROD-013,New Balance Running Shoes,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-02-11,7,No
+REV-00015,CUST-11504,Efua Sarpong,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-04,6,Yes
+REV-00016,CUST-66985,Fiifi Dosimey,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-01-10,2,Yes
+REV-00017,CUST-23947,Akua Asamoah,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-01-31,5,Yes
+REV-00018,CUST-52487,Regina Asante,Kumasi,PROD-003,Samsung Galaxy A54,Technology,4,Top quality item. Customer service was also very helpful.,2025-02-09,6,Yes
+REV-00019,CUST-41571,Akosua Adjei,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,Outstanding experience. Already recommended to friends.,2024-12-18,51,No
+REV-00020,CUST-96474,Isaac Amoah,Accra,PROD-014,Anker USB-C Charging Hub,Technology,1,Poor packaging. Item arrived slightly damaged.,2024-12-25,52,Yes
+REV-00021,CUST-36365,Akua Nkrumah,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-03,6,Yes
+REV-00022,CUST-39451,Yaw Inkoom,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,3,Works as described but the quality feels a little cheap.,2025-01-06,2,Yes
+REV-00023,CUST-19305,Abena Antwi,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Impressive build quality. Works exactly as described.,2024-12-13,50,Yes
+REV-00024,CUST-41195,Afia Essien,Accra,PROD-015,Wilson Tennis Racket,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-01-31,5,Yes
+REV-00025,CUST-71993,Carl Quaye,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-05,1,Yes
+REV-00026,CUST-63883,Priscilla Owusu,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,Product is fine. Packaging could be improved though.,2025-01-23,4,Yes
+REV-00027,CUST-35112,Nana Sarpong,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-01-06,2,No
+REV-00028,CUST-42742,Yaw Crankson,Kumasi,PROD-003,Samsung Galaxy A54,Technology,5,Top quality item. Customer service was also very helpful.,2025-01-26,4,Yes
+REV-00029,CUST-40982,Fiifi Peprah,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,1,Poor packaging. Item arrived slightly damaged.,2024-12-22,51,No
+REV-00030,CUST-59672,Kwame Laryea,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,It is okay. Delivery took longer than expected to Accra.,2024-12-28,52,Yes
+REV-00031,CUST-82845,Regina Gyamfi,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-02-18,8,Yes
+REV-00032,CUST-51104,Abena Owusu,Accra,PROD-005,Puma Training T-Shirt,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-02-23,8,No
+REV-00033,CUST-20500,Maame Acheampong,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,4,Top quality item. Customer service was also very helpful.,2025-01-31,5,Yes
+REV-00034,CUST-42271,Kofi Adjei,Accra,PROD-011,Speedo Swim Goggles,Sportswear,3,It is okay. Delivery took longer than expected to Accra.,2025-02-06,6,No
+REV-00035,CUST-36772,Bright Bonsu,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-07,2,Yes
+REV-00036,CUST-19508,Kwame Dosimey,Accra,PROD-007,Under Armour Compression Tights,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-12,2,Yes
+REV-00037,CUST-55745,Yaw Bonsu,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2024-12-25,52,Yes
+REV-00038,CUST-95717,Beatrice Mensah,Accra,PROD-005,Puma Training T-Shirt,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-10,7,Yes
+REV-00039,CUST-25129,Kweku Gyamfi,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-01-07,2,Yes
+REV-00040,CUST-93130,Kwesi Asamoah,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-01-01,1,No
+REV-00041,CUST-46265,Kofi Mensah,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2025-03-03,10,Yes
+REV-00042,CUST-67912,Cecilia Sarfo,Accra,PROD-013,New Balance Running Shoes,Sportswear,4,Super fast shipping to Accra. Product is exactly what I needed.,2025-02-22,8,Yes
+REV-00043,CUST-58393,Cecilia Gyamfi,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-03-04,10,No
+REV-00044,CUST-15229,Emmanuel Tetteh,Accra,PROD-003,Samsung Galaxy A54,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-28,9,Yes
+REV-00045,CUST-30257,Esi Amoah,Accra,PROD-011,Speedo Swim Goggles,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-11,7,Yes
+REV-00046,CUST-53540,Carl Bonsu,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,4,Excellent product! Really happy with my purchase from the Kumasi store.,2025-02-22,8,Yes
+REV-00047,CUST-71694,Kwabena Quaye,Takoradi,PROD-003,Samsung Galaxy A54,Technology,5,Very satisfied. The product arrived on time and in perfect condition.,2024-12-16,51,No
+REV-00048,CUST-96511,Nana Nkrumah,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Impressive build quality. Works exactly as described.,2024-12-15,50,Yes
+REV-00049,CUST-76768,Olivia Sarpong,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,Super fast shipping to Accra. Product is exactly what I needed.,2025-02-13,7,Yes
+REV-00050,CUST-44795,Kofi Appiah,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,4,Super fast shipping to Accra. Product is exactly what I needed.,2025-02-07,6,No
+REV-00051,CUST-77033,Efua Laryea,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Decent product overall. Nothing special but does the job.,2025-02-09,6,Yes
+REV-00052,CUST-80575,Nana Kumi,Accra,PROD-005,Puma Training T-Shirt,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-01,5,No
+REV-00053,CUST-26334,Akua Asamoah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-02-15,7,Yes
+REV-00054,CUST-48752,Cecilia Frimpong,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-02-18,8,Yes
+REV-00055,CUST-84593,Akua Nkrumah,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-02-10,7,Yes
+REV-00056,CUST-86019,Bright Dosimey,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-02-27,9,No
+REV-00057,CUST-32241,Akosua Forson,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,5,Fantastic value for money. Highly recommend to everyone.,2025-02-28,9,Yes
+REV-00058,CUST-36100,Adwoa Asante,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-03-01,9,Yes
+REV-00059,CUST-64321,Nana Laryea,Kumasi,PROD-004,Apple AirPods Pro,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-01-26,4,No
+REV-00060,CUST-23970,Grace Antwi,Accra,PROD-007,Under Armour Compression Tights,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-23,8,Yes
+REV-00061,CUST-83060,Esi Darko,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,2,Delivery took too long and product did not match the description.,2024-12-17,51,No
+REV-00062,CUST-68008,Solomon Sarfo,Kumasi,PROD-003,Samsung Galaxy A54,Technology,2,Delivery took too long and product did not match the description.,2025-02-24,9,No
+REV-00063,CUST-42406,Afia Opoku,Accra,PROD-015,Wilson Tennis Racket,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2025-01-07,2,No
+REV-00064,CUST-47450,Esi Eshun,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,Super fast shipping to Accra. Product is exactly what I needed.,2024-12-20,51,Yes
+REV-00065,CUST-40311,Ernest Gyamfi,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,The Tecno Camon 20 Smartphone exceeded my expectations. Worth every pesewa.,2024-12-27,52,Yes
+REV-00066,CUST-71069,Carl Owusu,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-03,6,Yes
+REV-00067,CUST-85456,Ernest Kabu,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,3,It is okay. Delivery took longer than expected to Kumasi.,2025-03-06,10,Yes
+REV-00068,CUST-81582,Kwabena Essien,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,It is okay. Delivery took longer than expected to Kumasi.,2025-02-03,6,Yes
+REV-00069,CUST-54057,Olivia Amoah,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-01-19,3,No
+REV-00070,CUST-87580,Ama Adjei,Accra,PROD-015,Wilson Tennis Racket,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-20,4,No
+REV-00071,CUST-59689,Bright Tetteh,Kumasi,PROD-003,Samsung Galaxy A54,Technology,4,Top quality item. Customer service was also very helpful.,2025-01-07,2,No
+REV-00072,CUST-65255,Kwesi Adjei,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,It is okay. Delivery took longer than expected to Kumasi.,2025-02-24,9,No
+REV-00073,CUST-39389,Yaw Boateng,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,1,Poor packaging. Item arrived slightly damaged.,2025-01-15,3,Yes
+REV-00074,CUST-26544,Isaac Darko,Accra,PROD-004,Apple AirPods Pro,Technology,4,Excellent product! Really happy with my purchase from the Accra store.,2025-01-05,1,Yes
+REV-00075,CUST-89415,Efua Amoah,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,5,Super fast shipping to Takoradi. Product is exactly what I needed.,2024-12-29,52,Yes
+REV-00076,CUST-98781,Ernest Nkrumah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,5,Excellent product! Really happy with my purchase from the Takoradi store.,2025-02-06,6,Yes
+REV-00077,CUST-49529,Efua Boateng,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-18,8,Yes
+REV-00078,CUST-94874,Patience Mensah,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-01-31,5,No
+REV-00079,CUST-93307,Priscilla Gyamfi,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,5,Very satisfied. The product arrived on time and in perfect condition.,2025-01-17,3,No
+REV-00080,CUST-80539,Isaac Dosimey,Takoradi,PROD-003,Samsung Galaxy A54,Technology,2,Delivery took too long and product did not match the description.,2025-02-10,7,No
+REV-00081,CUST-42177,Akosua Eshun,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-13,3,No
+REV-00082,CUST-13761,Regina Hackman,Kumasi,PROD-004,Apple AirPods Pro,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-14,3,Yes
+REV-00083,CUST-46655,Afia Mensah,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-01-15,3,Yes
+REV-00084,CUST-41499,Isaac Essien,Accra,PROD-002,Adidas Running Shorts,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-04,6,No
+REV-00085,CUST-63005,Esi Gyan,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,The New Balance Running Shoes exceeded my expectations. Worth every pesewa.,2025-01-03,1,Yes
+REV-00086,CUST-82140,Patience Jatoe,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,2,Delivery took too long and product did not match the description.,2025-01-23,4,No
+REV-00087,CUST-35242,Bright Darko,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,4,Super fast shipping to Kumasi. Product is exactly what I needed.,2024-12-24,52,Yes
+REV-00088,CUST-87278,Beatrice Forson,Accra,PROD-004,Apple AirPods Pro,Technology,2,Disappointed with the quality. Not worth the price at all.,2025-02-21,8,Yes
+REV-00089,CUST-33519,Akua Mensah,Accra,PROD-014,Anker USB-C Charging Hub,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-17,3,Yes
+REV-00090,CUST-26551,Regina Appiah,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,"Great quality, fast delivery. Will definitely order again.",2025-02-18,8,Yes
+REV-00091,CUST-54657,Maame Owusu,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,2,Disappointed with the quality. Not worth the price at all.,2025-01-24,4,Yes
+REV-00092,CUST-74454,Yaw Owusu,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,4,Very satisfied. The product arrived on time and in perfect condition.,2025-01-20,4,Yes
+REV-00093,CUST-25525,Cecilia Peprah,Takoradi,PROD-003,Samsung Galaxy A54,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-06,2,Yes
+REV-00094,CUST-48974,Grace Gyan,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-01-24,4,Yes
+REV-00095,CUST-37659,Kwesi Adjei,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Very satisfied. The product arrived on time and in perfect condition.,2025-02-11,7,Yes
+REV-00096,CUST-10350,Carl Crankson,Accra,PROD-004,Apple AirPods Pro,Technology,1,Poor packaging. Item arrived slightly damaged.,2024-12-28,52,No
+REV-00097,CUST-47056,Priscilla Acheampong,Accra,PROD-005,Puma Training T-Shirt,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-19,8,Yes
+REV-00098,CUST-25043,Francis Antwi,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-23,4,Yes
+REV-00099,CUST-31747,Akua Forson,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2024-12-18,51,No
+REV-00100,CUST-75597,Francis Essien,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-08,2,No
+REV-00101,CUST-52247,Kwesi Asante,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,5,"Great quality, fast delivery. Will definitely order again.",2025-02-22,8,Yes
+REV-00102,CUST-98117,Afia Boateng,Takoradi,PROD-004,Apple AirPods Pro,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-02-25,9,Yes
+REV-00103,CUST-86720,Grace Essien,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,3,Works as described but the quality feels a little cheap.,2024-12-30,1,Yes
+REV-00104,CUST-97835,Kweku Amoah,Kumasi,PROD-008,JBL Bluetooth Speaker,Technology,3,Product is fine. Packaging could be improved though.,2025-01-13,3,Yes
+REV-00105,CUST-62488,Cecilia Boateng,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2025-02-15,7,No
+REV-00106,CUST-62976,Solomon Mensah,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2024-12-24,52,No
+REV-00107,CUST-75338,Daniel Owusu,Accra,PROD-007,Under Armour Compression Tights,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-02-11,7,Yes
+REV-00108,CUST-73532,Efua Asante,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-01-24,4,Yes
+REV-00109,CUST-63476,Akosua Antwi,Accra,PROD-012,Xiaomi Smart Band 8,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-04,6,Yes
+REV-00110,CUST-48254,Solomon Eshun,Accra,PROD-008,JBL Bluetooth Speaker,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-02-20,8,No
+REV-00111,CUST-82255,Adwoa Laryea,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-01-26,4,Yes
+REV-00112,CUST-19150,Afia Peprah,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,1,Delivery took too long and product did not match the description.,2025-03-06,10,Yes
+REV-00113,CUST-49132,Regina Gyamfi,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-01-09,2,No
+REV-00114,CUST-81228,Ernest Dosimey,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-04,6,Yes
+REV-00115,CUST-63841,Kofi Hackman,Accra,PROD-014,Anker USB-C Charging Hub,Technology,4,Impressive build quality. Works exactly as described.,2025-01-04,1,No
+REV-00116,CUST-14852,Kojo Asamoah,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,It is okay. Delivery took longer than expected to Kumasi.,2025-01-30,5,Yes
+REV-00117,CUST-69890,Kwame Gyamfi,Accra,PROD-014,Anker USB-C Charging Hub,Technology,3,Works as described but the quality feels a little cheap.,2025-02-02,5,No
+REV-00118,CUST-44737,Patience Nkrumah,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-01-27,5,Yes
+REV-00119,CUST-92155,Regina Sarpong,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,2,Poor packaging. Item arrived slightly damaged.,2025-01-12,2,Yes
+REV-00120,CUST-21846,Grace Appiah,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Impressive build quality. Works exactly as described.,2025-01-04,1,Yes
+REV-00121,CUST-52516,Abena Forson,Accra,PROD-008,JBL Bluetooth Speaker,Technology,5,Outstanding experience. Already recommended to friends.,2024-12-17,51,Yes
+REV-00122,CUST-64008,Maame Amoah,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-02-02,5,Yes
+REV-00123,CUST-86435,Adwoa Antwi,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-01-30,5,No
+REV-00124,CUST-11231,Priscilla Forson,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-15,7,Yes
+REV-00125,CUST-65615,Kwesi Dosimey,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-13,7,Yes
+REV-00126,CUST-59986,Emmanuel Forson,Kumasi,PROD-004,Apple AirPods Pro,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-01-05,1,Yes
+REV-00127,CUST-84177,Abena Essien,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2024-12-13,50,Yes
+REV-00128,CUST-93442,Nana Dompreh,Accra,PROD-013,New Balance Running Shoes,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-03,1,Yes
+REV-00129,CUST-67779,Kofi Kumi,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,"Great quality, fast delivery. Will definitely order again.",2025-02-27,9,Yes
+REV-00130,CUST-36318,Kojo Sarpong,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Decent product overall. Nothing special but does the job.,2024-12-30,1,Yes
+REV-00131,CUST-73156,Mensah Inkoom,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-01-06,2,Yes
+REV-00132,CUST-98647,Olivia Kumi,Accra,PROD-008,JBL Bluetooth Speaker,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-03-06,10,Yes
+REV-00133,CUST-26199,Priscilla Kumi,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,5,Excellent product! Really happy with my purchase from the Kumasi store.,2025-02-03,6,Yes
+REV-00134,CUST-40647,Isaac Asante,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-02-16,7,Yes
+REV-00135,CUST-70852,Akua Peprah,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-12,7,Yes
+REV-00136,CUST-25220,Kweku Bonsu,Accra,PROD-003,Samsung Galaxy A54,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-01-29,5,Yes
+REV-00137,CUST-30253,Carl Appiah,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-08,6,No
+REV-00138,CUST-58566,Adjoa Crankson,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Super fast shipping to Kumasi. Product is exactly what I needed.,2025-02-18,8,No
+REV-00139,CUST-94518,Emmanuel Owusu,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,Very satisfied. The product arrived on time and in perfect condition.,2025-02-03,6,No
+REV-00140,CUST-96870,Adjoa Asante,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2024-12-21,51,Yes
+REV-00141,CUST-84000,Adjoa Acheampong,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-27,9,Yes
+REV-00142,CUST-29340,Kwame Eshun,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Impressive build quality. Works exactly as described.,2025-02-26,9,Yes
+REV-00143,CUST-96646,Ama Frimpong,Takoradi,PROD-003,Samsung Galaxy A54,Technology,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2024-12-23,52,Yes
+REV-00144,CUST-32838,Kwesi Owusu,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,2,Expected better quality from this brand. Very underwhelming.,2024-12-14,50,Yes
+REV-00145,CUST-18330,Isaac Crankson,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,1,Delivery took too long and product did not match the description.,2025-02-23,8,Yes
+REV-00146,CUST-39038,Kofi Opoku,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2025-01-30,5,Yes
+REV-00147,CUST-62640,Grace Appiah,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,4,Excellent product! Really happy with my purchase from the Takoradi store.,2025-01-28,5,No
+REV-00148,CUST-89730,Adwoa Acheampong,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,5,The Xiaomi Smart Band 8 exceeded my expectations. Worth every pesewa.,2025-01-13,3,Yes
+REV-00149,CUST-88301,Beatrice Forson,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-18,3,No
+REV-00150,CUST-24996,Cecilia Tetteh,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-28,9,No
+REV-00151,CUST-69441,Olivia Peprah,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Product is fine. Packaging could be improved though.,2025-03-03,10,Yes
+REV-00152,CUST-30006,Isaac Acheampong,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Decent product overall. Nothing special but does the job.,2025-01-18,3,Yes
+REV-00153,CUST-58843,Kojo Owusu,Accra,PROD-014,Anker USB-C Charging Hub,Technology,5,The Anker USB-C Charging Hub exceeded my expectations. Worth every pesewa.,2024-12-22,51,Yes
+REV-00154,CUST-65435,Abena Forson,Accra,PROD-011,Speedo Swim Goggles,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-15,7,Yes
+REV-00155,CUST-96079,Isaac Antwi,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,2,Expected better quality from this brand. Very underwhelming.,2024-12-28,52,Yes
+REV-00156,CUST-46512,Kwabena Sarfo,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-02-25,9,Yes
+REV-00157,CUST-45818,Akua Inkoom,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2024-12-30,1,Yes
+REV-00158,CUST-28595,Ama Adjei,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2024-12-19,51,Yes
+REV-00159,CUST-58503,Akua Hackman,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-28,52,Yes
+REV-00160,CUST-90981,Abena Adjei,Accra,PROD-015,Wilson Tennis Racket,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-24,9,Yes
+REV-00161,CUST-67939,Carl Eshun,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,3,Product is fine. Packaging could be improved though.,2025-02-09,6,Yes
+REV-00162,CUST-24534,Mensah Essien,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2025-01-23,4,Yes
+REV-00163,CUST-36794,Akua Tetteh,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,3,It is okay. Delivery took longer than expected to Accra.,2024-12-13,50,Yes
+REV-00164,CUST-11013,Regina Sarfo,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,5,Outstanding experience. Already recommended to friends.,2024-12-24,52,Yes
+REV-00165,CUST-83233,Emmanuel Acheampong,Kumasi,PROD-003,Samsung Galaxy A54,Technology,1,Poor packaging. Item arrived slightly damaged.,2025-01-30,5,No
+REV-00166,CUST-70260,Yaw Hackman,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,5,"Great quality, fast delivery. Will definitely order again.",2024-12-14,50,No
+REV-00167,CUST-63088,Ama Hackman,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,3,Product is fine. Packaging could be improved though.,2024-12-24,52,Yes
+REV-00168,CUST-67240,Kweku Bonsu,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-21,51,No
+REV-00169,CUST-50668,Patience Antwi,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,1,Delivery took too long and product did not match the description.,2025-01-20,4,Yes
+REV-00170,CUST-76840,Nana Jatoe,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,The New Balance Running Shoes exceeded my expectations. Worth every pesewa.,2025-02-02,5,Yes
+REV-00171,CUST-29194,Kwesi Quaye,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,5,Absolutely love it! Best purchase I have made this year.,2024-12-22,51,Yes
+REV-00172,CUST-92306,Regina Dosimey,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,5,The Lenovo IdeaPad Laptop exceeded my expectations. Worth every pesewa.,2025-02-26,9,No
+REV-00173,CUST-92210,Bright Gyamfi,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-03-06,10,No
+REV-00174,CUST-46002,Abena Jatoe,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-28,9,Yes
+REV-00175,CUST-58331,Mensah Acheampong,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-18,51,Yes
+REV-00176,CUST-86064,Cecilia Boateng,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,2,Delivery took too long and product did not match the description.,2025-01-26,4,No
+REV-00177,CUST-72341,Solomon Gyamfi,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-02-09,6,Yes
+REV-00178,CUST-94689,Maame Boateng,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Decent product overall. Nothing special but does the job.,2025-01-30,5,Yes
+REV-00179,CUST-58870,Mensah Laryea,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,Works as described but the quality feels a little cheap.,2025-01-17,3,No
+REV-00180,CUST-92691,Patience Acheampong,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-02-27,9,Yes
+REV-00181,CUST-96057,Adwoa Inkoom,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-01-06,2,Yes
+REV-00182,CUST-95990,Olivia Frimpong,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-01-12,2,Yes
+REV-00183,CUST-26750,Beatrice Adjei,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-03-01,9,No
+REV-00184,CUST-33627,Adjoa Inkoom,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Excellent product! Really happy with my purchase from the Kumasi store.,2025-01-11,2,No
+REV-00185,CUST-48770,Kweku Asamoah,Accra,PROD-004,Apple AirPods Pro,Technology,5,Absolutely love it! Best purchase I have made this year.,2024-12-20,51,Yes
+REV-00186,CUST-59377,Adwoa Amoah,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-02-08,6,Yes
+REV-00187,CUST-67366,Kofi Peprah,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-02-21,8,Yes
+REV-00188,CUST-47346,Daniel Antwi,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-10,7,Yes
+REV-00189,CUST-84766,Daniel Dosimey,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-02-16,7,Yes
+REV-00190,CUST-36174,Kojo Dompreh,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,2,Delivery took too long and product did not match the description.,2024-12-28,52,Yes
+REV-00191,CUST-77621,Efua Forson,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-20,8,Yes
+REV-00192,CUST-29313,Grace Adjei,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,Super fast shipping to Accra. Product is exactly what I needed.,2025-01-31,5,Yes
+REV-00193,CUST-16980,Olivia Asamoah,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-01-22,4,Yes
+REV-00194,CUST-13694,Bright Appiah,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,The Apple AirPods Pro exceeded my expectations. Worth every pesewa.,2025-01-03,1,Yes
+REV-00195,CUST-71925,Kojo Kabu,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-01-09,2,No
+REV-00196,CUST-38266,Adwoa Opoku,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,5,The Lenovo IdeaPad Laptop exceeded my expectations. Worth every pesewa.,2025-01-06,2,No
+REV-00197,CUST-16258,Esi Peprah,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,4,Impressive build quality. Works exactly as described.,2024-12-24,52,No
+REV-00198,CUST-77551,Esi Gyamfi,Accra,PROD-002,Adidas Running Shorts,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-02-12,7,Yes
+REV-00199,CUST-84798,Carl Ofori,Accra,PROD-007,Under Armour Compression Tights,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-05,1,Yes
+REV-00200,CUST-71621,Kofi Laryea,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,The Reebok Classic Football Boots exceeded my expectations. Worth every pesewa.,2025-01-19,3,Yes
+REV-00201,CUST-18855,Emmanuel Bonsu,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,5,Excellent product! Really happy with my purchase from the Takoradi store.,2025-02-27,9,Yes
+REV-00202,CUST-56176,Francis Inkoom,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Decent product overall. Nothing special but does the job.,2024-12-17,51,Yes
+REV-00203,CUST-33891,Kojo Acheampong,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,3,Works as described but the quality feels a little cheap.,2025-02-12,7,No
+REV-00204,CUST-36144,Kofi Hackman,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,4,Fantastic value for money. Highly recommend to everyone.,2025-02-27,9,Yes
+REV-00205,CUST-14799,Nana Forson,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-01-06,2,Yes
+REV-00206,CUST-58237,Grace Nkrumah,Accra,PROD-014,Anker USB-C Charging Hub,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-25,52,No
+REV-00207,CUST-75211,Josephine Opoku,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-01-30,5,Yes
+REV-00208,CUST-88964,Maame Sarpong,Accra,PROD-013,New Balance Running Shoes,Sportswear,3,Product is fine. Packaging could be improved though.,2025-01-23,4,Yes
+REV-00209,CUST-48750,Akua Crankson,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,5,The Tecno Camon 20 Smartphone exceeded my expectations. Worth every pesewa.,2025-02-15,7,No
+REV-00210,CUST-15551,Emmanuel Sarfo,Takoradi,PROD-003,Samsung Galaxy A54,Technology,3,Works as described but the quality feels a little cheap.,2025-01-25,4,Yes
+REV-00211,CUST-77251,Fiifi Asante,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,The Speedo Swim Goggles exceeded my expectations. Worth every pesewa.,2025-01-17,3,Yes
+REV-00212,CUST-18812,Esi Kumi,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,3,Works as described but the quality feels a little cheap.,2024-12-25,52,Yes
+REV-00213,CUST-68972,Josephine Kumi,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-02-16,7,No
+REV-00214,CUST-58096,Olivia Hackman,Accra,PROD-013,New Balance Running Shoes,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-02-02,5,Yes
+REV-00215,CUST-77861,Ernest Darko,Accra,PROD-004,Apple AirPods Pro,Technology,4,Excellent product! Really happy with my purchase from the Accra store.,2025-01-30,5,Yes
+REV-00216,CUST-47431,Regina Quaye,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-10,7,Yes
+REV-00217,CUST-68341,Akosua Hackman,Accra,PROD-003,Samsung Galaxy A54,Technology,3,Works as described but the quality feels a little cheap.,2025-02-20,8,Yes
+REV-00218,CUST-30644,Maame Kumi,Accra,PROD-012,Xiaomi Smart Band 8,Technology,2,Poor packaging. Item arrived slightly damaged.,2025-01-11,2,Yes
+REV-00219,CUST-74752,Ama Kumi,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-27,9,Yes
+REV-00220,CUST-50539,Olivia Kabu,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,5,Absolutely love it! Best purchase I have made this year.,2024-12-19,51,No
+REV-00221,CUST-51553,Yaw Crankson,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2024-12-25,52,No
+REV-00222,CUST-82260,Maame Frimpong,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-03-03,10,No
+REV-00223,CUST-31581,Fiifi Hackman,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-01-11,2,Yes
+REV-00224,CUST-35729,Cecilia Eshun,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-06,2,Yes
+REV-00225,CUST-94015,Fiifi Gyamfi,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-30,5,Yes
+REV-00226,CUST-83874,Kofi Asante,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-03-04,10,Yes
+REV-00227,CUST-37631,Carl Asante,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-02-14,7,No
+REV-00228,CUST-49596,Isaac Bonsu,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-02-13,7,No
+REV-00229,CUST-67619,Carl Kabu,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2024-12-28,52,No
+REV-00230,CUST-51853,Emmanuel Nkrumah,Kumasi,PROD-004,Apple AirPods Pro,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-01-12,2,Yes
+REV-00231,CUST-41685,Priscilla Darko,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,1,Delivery took too long and product did not match the description.,2025-01-12,2,Yes
+REV-00232,CUST-48038,Ernest Peprah,Accra,PROD-008,JBL Bluetooth Speaker,Technology,5,Absolutely love it! Best purchase I have made this year.,2024-12-17,51,Yes
+REV-00233,CUST-30885,Regina Asamoah,Accra,PROD-014,Anker USB-C Charging Hub,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-31,1,No
+REV-00234,CUST-61543,Solomon Dosimey,Kumasi,PROD-008,JBL Bluetooth Speaker,Technology,1,Disappointed with the quality. Not worth the price at all.,2024-12-21,51,Yes
+REV-00235,CUST-46877,Regina Kabu,Takoradi,PROD-004,Apple AirPods Pro,Technology,3,Average quality for the price. Expected a bit more honestly.,2024-12-17,51,Yes
+REV-00236,CUST-44664,Josephine Nkrumah,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2024-12-26,52,Yes
+REV-00237,CUST-82512,Mensah Acheampong,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-01-17,3,No
+REV-00238,CUST-91689,Efua Frimpong,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-03-03,10,Yes
+REV-00239,CUST-28909,Nana Asamoah,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-02-24,9,No
+REV-00240,CUST-53652,Isaac Opoku,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2024-12-26,52,No
+REV-00241,CUST-90356,Bright Amoah,Takoradi,PROD-003,Samsung Galaxy A54,Technology,1,Delivery took too long and product did not match the description.,2025-01-13,3,No
+REV-00242,CUST-76809,Francis Essien,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-31,5,Yes
+REV-00243,CUST-24366,Carl Gyan,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-02-16,7,Yes
+REV-00244,CUST-16731,Isaac Amoah,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Super fast shipping to Kumasi. Product is exactly what I needed.,2025-02-21,8,No
+REV-00245,CUST-24404,Nana Asante,Takoradi,PROD-003,Samsung Galaxy A54,Technology,4,Impressive build quality. Works exactly as described.,2025-02-06,6,No
+REV-00246,CUST-36724,Carl Asamoah,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-02-18,8,No
+REV-00247,CUST-37176,Cecilia Hackman,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,4,"Great quality, fast delivery. Will definitely order again.",2025-02-01,5,No
+REV-00248,CUST-79878,Patience Sarpong,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-01-26,4,Yes
+REV-00249,CUST-42311,Afia Gyan,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,5,Super fast shipping to Takoradi. Product is exactly what I needed.,2024-12-31,1,Yes
+REV-00250,CUST-72888,Emmanuel Eshun,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-01-12,2,Yes
+REV-00251,CUST-55237,Adwoa Forson,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-01-20,4,Yes
+REV-00252,CUST-95979,Kwesi Kabu,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2025-01-24,4,Yes
+REV-00253,CUST-24316,Esi Bonsu,Takoradi,PROD-004,Apple AirPods Pro,Technology,5,Super fast shipping to Takoradi. Product is exactly what I needed.,2024-12-26,52,Yes
+REV-00254,CUST-23133,Carl Inkoom,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,4,Impressive build quality. Works exactly as described.,2024-12-18,51,No
+REV-00255,CUST-30701,Carl Kabu,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-04,6,No
+REV-00256,CUST-94659,Abena Adjei,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-09,2,Yes
+REV-00257,CUST-33040,Kofi Nkrumah,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-01-22,4,No
+REV-00258,CUST-49110,Kweku Inkoom,Takoradi,PROD-003,Samsung Galaxy A54,Technology,5,Outstanding experience. Already recommended to friends.,2024-12-13,50,Yes
+REV-00259,CUST-76088,Priscilla Eshun,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,2,Poor packaging. Item arrived slightly damaged.,2024-12-26,52,Yes
+REV-00260,CUST-70150,Kwesi Ofori,Accra,PROD-013,New Balance Running Shoes,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-02-21,8,Yes
+REV-00261,CUST-90079,Olivia Sarfo,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,5,Outstanding experience. Already recommended to friends.,2024-12-30,1,Yes
+REV-00262,CUST-72580,Bright Bonsu,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2024-12-26,52,Yes
+REV-00263,CUST-44995,Patience Gyan,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-24,9,Yes
+REV-00264,CUST-97528,Efua Dosimey,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2024-12-19,51,Yes
+REV-00265,CUST-25389,Mensah Kumi,Kumasi,PROD-003,Samsung Galaxy A54,Technology,2,Delivery took too long and product did not match the description.,2025-02-18,8,Yes
+REV-00266,CUST-89395,Josephine Peprah,Accra,PROD-004,Apple AirPods Pro,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-01-26,4,No
+REV-00267,CUST-88094,Akosua Opoku,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,4,Fantastic value for money. Highly recommend to everyone.,2025-02-17,8,No
+REV-00268,CUST-24707,Abena Asamoah,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-05,6,Yes
+REV-00269,CUST-78202,Daniel Darko,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-01-13,3,Yes
+REV-00270,CUST-68390,Abena Dosimey,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-01-31,5,Yes
+REV-00271,CUST-70604,Akua Asante,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Works as described but the quality feels a little cheap.,2025-02-05,6,No
+REV-00272,CUST-65534,Emmanuel Acheampong,Accra,PROD-005,Puma Training T-Shirt,Sportswear,4,Fantastic value for money. Highly recommend to everyone.,2024-12-17,51,Yes
+REV-00273,CUST-63591,Maame Frimpong,Accra,PROD-015,Wilson Tennis Racket,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-01-09,2,No
+REV-00274,CUST-20518,Francis Frimpong,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Works as described but the quality feels a little cheap.,2025-01-18,3,Yes
+REV-00275,CUST-26691,Kwabena Mensah,Accra,PROD-002,Adidas Running Shorts,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-02-02,5,Yes
+REV-00276,CUST-59712,Kwabena Bonsu,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2025-02-02,5,No
+REV-00277,CUST-24790,Kofi Peprah,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Super fast shipping to Accra. Product is exactly what I needed.,2025-02-21,8,Yes
+REV-00278,CUST-14400,Daniel Owusu,Accra,PROD-004,Apple AirPods Pro,Technology,5,The Apple AirPods Pro exceeded my expectations. Worth every pesewa.,2025-02-08,6,Yes
+REV-00279,CUST-80747,Adjoa Owusu,Accra,PROD-012,Xiaomi Smart Band 8,Technology,3,It is okay. Delivery took longer than expected to Accra.,2025-01-04,1,Yes
+REV-00280,CUST-88370,Bright Bonsu,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-07,6,Yes
+REV-00281,CUST-49387,Afia Owusu,Accra,PROD-015,Wilson Tennis Racket,Sportswear,1,Delivery took too long and product did not match the description.,2025-01-22,4,Yes
+REV-00282,CUST-55143,Ernest Opoku,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,3,Product is fine. Packaging could be improved though.,2024-12-17,51,Yes
+REV-00283,CUST-59343,Maame Sarpong,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,Product is fine. Packaging could be improved though.,2025-01-11,2,No
+REV-00284,CUST-70689,Abena Peprah,Accra,PROD-004,Apple AirPods Pro,Technology,5,Outstanding experience. Already recommended to friends.,2025-03-01,9,No
+REV-00285,CUST-43422,Adjoa Inkoom,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-01-05,1,Yes
+REV-00286,CUST-34966,Abena Eshun,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-03,6,No
+REV-00287,CUST-34662,Cecilia Tetteh,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2024-12-20,51,No
+REV-00288,CUST-34906,Efua Kabu,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-02,1,Yes
+REV-00289,CUST-82362,Bright Forson,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,5,Fantastic value for money. Highly recommend to everyone.,2025-01-05,1,No
+REV-00290,CUST-57139,Solomon Essien,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-01-07,2,No
+REV-00291,CUST-58589,Bright Peprah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2025-01-01,1,Yes
+REV-00292,CUST-82523,Carl Forson,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-01-07,2,Yes
+REV-00293,CUST-42208,Regina Inkoom,Kumasi,PROD-004,Apple AirPods Pro,Technology,4,Impressive build quality. Works exactly as described.,2025-02-06,6,Yes
+REV-00294,CUST-56160,Fiifi Frimpong,Kumasi,PROD-013,New Balance Running Shoes,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2024-12-29,52,No
+REV-00295,CUST-19742,Abena Mensah,Takoradi,PROD-003,Samsung Galaxy A54,Technology,4,"Great quality, fast delivery. Will definitely order again.",2025-03-04,10,No
+REV-00296,CUST-29795,Kwame Tetteh,Takoradi,PROD-003,Samsung Galaxy A54,Technology,4,Impressive build quality. Works exactly as described.,2025-02-19,8,No
+REV-00297,CUST-73944,Ama Mensah,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-02-15,7,No
+REV-00298,CUST-47576,Ama Asamoah,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,2,Delivery took too long and product did not match the description.,2025-02-03,6,No
+REV-00299,CUST-29516,Esi Quaye,Accra,PROD-013,New Balance Running Shoes,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-02-01,5,Yes
+REV-00300,CUST-58896,Olivia Dosimey,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2024-12-20,51,Yes
+REV-00301,CUST-95182,Kofi Adjei,Accra,PROD-012,Xiaomi Smart Band 8,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-14,7,No
+REV-00302,CUST-93459,Kwame Amoah,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2024-12-18,51,Yes
+REV-00303,CUST-15577,Kwabena Tetteh,Kumasi,PROD-008,JBL Bluetooth Speaker,Technology,3,Decent product overall. Nothing special but does the job.,2025-02-02,5,No
+REV-00304,CUST-83860,Kofi Ofori,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2025-02-03,6,Yes
+REV-00305,CUST-62205,Yaw Gyan,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-02-24,9,Yes
+REV-00306,CUST-80852,Patience Laryea,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-02-16,7,Yes
+REV-00307,CUST-22803,Grace Antwi,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,5,The New Balance Running Shoes exceeded my expectations. Worth every pesewa.,2024-12-18,51,Yes
+REV-00308,CUST-52778,Ama Eshun,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-02-26,9,No
+REV-00309,CUST-34345,Ernest Adjei,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-01-23,4,Yes
+REV-00310,CUST-30214,Ernest Gyamfi,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,The New Balance Running Shoes exceeded my expectations. Worth every pesewa.,2025-01-08,2,No
+REV-00311,CUST-50405,Daniel Kumi,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Very satisfied. The product arrived on time and in perfect condition.,2024-12-13,50,Yes
+REV-00312,CUST-68830,Cecilia Asamoah,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,The Adidas Running Shorts exceeded my expectations. Worth every pesewa.,2025-01-23,4,No
+REV-00313,CUST-22198,Bright Laryea,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,The Adidas Running Shorts exceeded my expectations. Worth every pesewa.,2025-02-04,6,Yes
+REV-00314,CUST-83339,Esi Opoku,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,3,It is okay. Delivery took longer than expected to Kumasi.,2025-02-21,8,Yes
+REV-00315,CUST-49469,Afia Essien,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,4,Top quality item. Customer service was also very helpful.,2025-01-08,2,Yes
+REV-00316,CUST-49289,Isaac Acheampong,Accra,PROD-002,Adidas Running Shorts,Sportswear,3,Product is fine. Packaging could be improved though.,2025-01-22,4,Yes
+REV-00317,CUST-24021,Kojo Gyan,Accra,PROD-005,Puma Training T-Shirt,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-01-26,4,Yes
+REV-00318,CUST-53193,Daniel Inkoom,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-03-01,9,No
+REV-00319,CUST-52030,Nana Kabu,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-01-11,2,Yes
+REV-00320,CUST-92955,Regina Bonsu,Kumasi,PROD-003,Samsung Galaxy A54,Technology,3,Decent product overall. Nothing special but does the job.,2025-02-22,8,Yes
+REV-00321,CUST-83905,Nana Sarpong,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,3,It is okay. Delivery took longer than expected to Kumasi.,2024-12-24,52,Yes
+REV-00322,CUST-37479,Daniel Forson,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,5,Excellent product! Really happy with my purchase from the Takoradi store.,2025-02-19,8,Yes
+REV-00323,CUST-49692,Esi Dompreh,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-02-12,7,Yes
+REV-00324,CUST-88372,Isaac Nkrumah,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,It is okay. Delivery took longer than expected to Kumasi.,2025-01-25,4,No
+REV-00325,CUST-42536,Emmanuel Amoah,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2024-12-23,52,Yes
+REV-00326,CUST-66420,Kweku Mensah,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,3,It is okay. Delivery took longer than expected to Takoradi.,2025-02-28,9,Yes
+REV-00327,CUST-59036,Olivia Dosimey,Accra,PROD-005,Puma Training T-Shirt,Sportswear,1,Delivery took too long and product did not match the description.,2025-01-25,4,Yes
+REV-00328,CUST-64522,Akosua Darko,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-01-10,2,Yes
+REV-00329,CUST-37114,Beatrice Kabu,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Decent product overall. Nothing special but does the job.,2025-02-27,9,Yes
+REV-00330,CUST-18804,Akua Boateng,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Works as described but the quality feels a little cheap.,2025-01-12,2,Yes
+REV-00331,CUST-41970,Beatrice Ofori,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-02-22,8,Yes
+REV-00332,CUST-63090,Maame Ofori,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,3,Product is fine. Packaging could be improved though.,2025-01-04,1,No
+REV-00333,CUST-87621,Grace Laryea,Accra,PROD-007,Under Armour Compression Tights,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-25,4,Yes
+REV-00334,CUST-18200,Kweku Sarpong,Accra,PROD-012,Xiaomi Smart Band 8,Technology,5,Fantastic value for money. Highly recommend to everyone.,2025-02-24,9,Yes
+REV-00335,CUST-44387,Regina Opoku,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Fantastic value for money. Highly recommend to everyone.,2024-12-24,52,Yes
+REV-00336,CUST-24972,Emmanuel Jatoe,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-02-07,6,No
+REV-00337,CUST-27556,Bright Darko,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-16,7,Yes
+REV-00338,CUST-28528,Solomon Laryea,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,Top quality item. Customer service was also very helpful.,2025-02-18,8,No
+REV-00339,CUST-34347,Regina Sarpong,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-23,4,Yes
+REV-00340,CUST-34523,Bright Crankson,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2024-12-26,52,Yes
+REV-00341,CUST-35575,Ernest Asamoah,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,5,Excellent product! Really happy with my purchase from the Kumasi store.,2024-12-26,52,No
+REV-00342,CUST-68176,Regina Amoah,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,2,Disappointed with the quality. Not worth the price at all.,2025-02-19,8,Yes
+REV-00343,CUST-46025,Kwabena Sarpong,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Impressive build quality. Works exactly as described.,2024-12-16,51,Yes
+REV-00344,CUST-76952,Efua Darko,Kumasi,PROD-003,Samsung Galaxy A54,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-02-04,6,Yes
+REV-00345,CUST-67850,Francis Tetteh,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-24,9,No
+REV-00346,CUST-68947,Kwesi Jatoe,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,4,Impressive build quality. Works exactly as described.,2024-12-16,51,Yes
+REV-00347,CUST-87060,Emmanuel Sarfo,Accra,PROD-008,JBL Bluetooth Speaker,Technology,4,Impressive build quality. Works exactly as described.,2025-03-01,9,Yes
+REV-00348,CUST-17780,Emmanuel Sarpong,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Fantastic value for money. Highly recommend to everyone.,2025-03-01,9,Yes
+REV-00349,CUST-48356,Mensah Eshun,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Top quality item. Customer service was also very helpful.,2025-02-19,8,Yes
+REV-00350,CUST-26631,Kojo Bonsu,Kumasi,PROD-003,Samsung Galaxy A54,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-02-14,7,Yes
+REV-00351,CUST-28634,Afia Peprah,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,4,Impressive build quality. Works exactly as described.,2025-01-29,5,No
+REV-00352,CUST-46467,Josephine Dosimey,Accra,PROD-008,JBL Bluetooth Speaker,Technology,5,The JBL Bluetooth Speaker exceeded my expectations. Worth every pesewa.,2025-02-01,5,No
+REV-00353,CUST-70089,Emmanuel Acheampong,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Excellent product! Really happy with my purchase from the Takoradi store.,2025-02-21,8,No
+REV-00354,CUST-52318,Mensah Inkoom,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,Fantastic value for money. Highly recommend to everyone.,2025-01-08,2,Yes
+REV-00355,CUST-23051,Priscilla Asante,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-17,51,Yes
+REV-00356,CUST-66072,Nana Frimpong,Accra,PROD-015,Wilson Tennis Racket,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-13,50,Yes
+REV-00357,CUST-20803,Josephine Amoah,Kumasi,PROD-003,Samsung Galaxy A54,Technology,5,The Samsung Galaxy A54 exceeded my expectations. Worth every pesewa.,2025-01-06,2,Yes
+REV-00358,CUST-95915,Akosua Appiah,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-23,4,Yes
+REV-00359,CUST-39647,Beatrice Crankson,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,The Apple AirPods Pro exceeded my expectations. Worth every pesewa.,2025-02-08,6,Yes
+REV-00360,CUST-65353,Kojo Kabu,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,3,Decent product overall. Nothing special but does the job.,2025-03-06,10,Yes
+REV-00361,CUST-51071,Josephine Gyan,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,The Apple AirPods Pro exceeded my expectations. Worth every pesewa.,2024-12-23,52,Yes
+REV-00362,CUST-83831,Kwame Amoah,Accra,PROD-007,Under Armour Compression Tights,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-02,5,No
+REV-00363,CUST-90750,Daniel Tetteh,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Fantastic value for money. Highly recommend to everyone.,2025-01-21,4,Yes
+REV-00364,CUST-60335,Emmanuel Sarfo,Accra,PROD-015,Wilson Tennis Racket,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-08,6,Yes
+REV-00365,CUST-21042,Esi Forson,Accra,PROD-013,New Balance Running Shoes,Sportswear,4,Impressive build quality. Works exactly as described.,2025-02-13,7,Yes
+REV-00366,CUST-89551,Solomon Quaye,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-01,5,No
+REV-00367,CUST-60578,Efua Bonsu,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-01-30,5,No
+REV-00368,CUST-51480,Kojo Laryea,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,5,The Speedo Swim Goggles exceeded my expectations. Worth every pesewa.,2025-01-17,3,No
+REV-00369,CUST-19567,Ama Acheampong,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Top quality item. Customer service was also very helpful.,2025-02-25,9,Yes
+REV-00370,CUST-62163,Solomon Forson,Accra,PROD-005,Puma Training T-Shirt,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-02-27,9,No
+REV-00371,CUST-80328,Francis Gyamfi,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-02-13,7,Yes
+REV-00372,CUST-30365,Francis Hackman,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,5,The Adidas Running Shorts exceeded my expectations. Worth every pesewa.,2025-03-01,9,No
+REV-00373,CUST-67342,Esi Owusu,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,The Lenovo IdeaPad Laptop exceeded my expectations. Worth every pesewa.,2025-02-18,8,Yes
+REV-00374,CUST-89800,Abena Gyan,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2025-02-10,7,Yes
+REV-00375,CUST-75065,Emmanuel Opoku,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2024-12-28,52,Yes
+REV-00376,CUST-25473,Ama Inkoom,Kumasi,PROD-003,Samsung Galaxy A54,Technology,5,Absolutely love it! Best purchase I have made this year.,2025-02-22,8,No
+REV-00377,CUST-85582,Yaw Essien,Takoradi,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2025-02-20,8,No
+REV-00378,CUST-84302,Fiifi Kumi,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,"Great quality, fast delivery. Will definitely order again.",2025-03-06,10,Yes
+REV-00379,CUST-76692,Kwame Boateng,Accra,PROD-005,Puma Training T-Shirt,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-04,1,Yes
+REV-00380,CUST-29671,Maame Boateng,Accra,PROD-004,Apple AirPods Pro,Technology,2,Disappointed with the quality. Not worth the price at all.,2025-01-19,3,No
+REV-00381,CUST-51934,Afia Acheampong,Kumasi,PROD-004,Apple AirPods Pro,Technology,4,Impressive build quality. Works exactly as described.,2025-02-20,8,Yes
+REV-00382,CUST-77603,Kofi Nkrumah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-01-03,1,Yes
+REV-00383,CUST-21322,Cecilia Dosimey,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-13,3,Yes
+REV-00384,CUST-91620,Esi Dosimey,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-22,8,Yes
+REV-00385,CUST-10835,Carl Asante,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Fantastic value for money. Highly recommend to everyone.,2024-12-27,52,Yes
+REV-00386,CUST-96154,Ernest Gyan,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Excellent product! Really happy with my purchase from the Kumasi store.,2024-12-13,50,Yes
+REV-00387,CUST-17850,Adwoa Eshun,Takoradi,PROD-004,Apple AirPods Pro,Technology,4,Impressive build quality. Works exactly as described.,2025-01-29,5,Yes
+REV-00388,CUST-58823,Priscilla Adjei,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,2,Delivery took too long and product did not match the description.,2025-02-19,8,Yes
+REV-00389,CUST-84425,Abena Sarfo,Accra,PROD-009,Reebok Classic Football Boots,Sportswear,3,It is okay. Delivery took longer than expected to Accra.,2025-02-08,6,Yes
+REV-00390,CUST-61505,Bright Hackman,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2025-02-28,9,No
+REV-00391,CUST-86638,Kweku Gyamfi,Accra,PROD-005,Puma Training T-Shirt,Sportswear,5,The Puma Training T-Shirt exceeded my expectations. Worth every pesewa.,2024-12-26,52,Yes
+REV-00392,CUST-25825,Francis Jatoe,Kumasi,PROD-003,Samsung Galaxy A54,Technology,3,Works as described but the quality feels a little cheap.,2025-01-21,4,Yes
+REV-00393,CUST-25717,Akosua Amoah,Kumasi,PROD-008,JBL Bluetooth Speaker,Technology,3,Works as described but the quality feels a little cheap.,2025-03-05,10,Yes
+REV-00394,CUST-52964,Adwoa Adjei,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-01-02,1,Yes
+REV-00395,CUST-49169,Kwesi Ofori,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,1,Delivery took too long and product did not match the description.,2025-02-16,7,Yes
+REV-00396,CUST-70560,Kweku Frimpong,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,1,Poor packaging. Item arrived slightly damaged.,2024-12-22,51,Yes
+REV-00397,CUST-62505,Josephine Adjei,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,4,Impressive build quality. Works exactly as described.,2025-01-01,1,Yes
+REV-00398,CUST-94670,Daniel Frimpong,Accra,PROD-015,Wilson Tennis Racket,Sportswear,4,Excellent product! Really happy with my purchase from the Accra store.,2025-01-01,1,Yes
+REV-00399,CUST-16637,Fiifi Sarfo,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-01-26,4,No
+REV-00400,CUST-56392,Adjoa Ofori,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,It is okay. Delivery took longer than expected to Accra.,2024-12-29,52,Yes
+REV-00401,CUST-91156,Esi Forson,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-02-10,7,No
+REV-00402,CUST-46670,Ernest Frimpong,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2024-12-21,51,No
+REV-00403,CUST-81258,Ama Laryea,Takoradi,PROD-004,Apple AirPods Pro,Technology,1,Delivery took too long and product did not match the description.,2025-02-12,7,Yes
+REV-00404,CUST-75849,Bright Laryea,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,2,Disappointed with the quality. Not worth the price at all.,2025-02-05,6,Yes
+REV-00405,CUST-46822,Abena Kabu,Accra,PROD-003,Samsung Galaxy A54,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-15,50,Yes
+REV-00406,CUST-42487,Esi Eshun,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,4,Impressive build quality. Works exactly as described.,2024-12-22,51,Yes
+REV-00407,CUST-32768,Maame Bonsu,Accra,PROD-013,New Balance Running Shoes,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2025-01-16,3,Yes
+REV-00408,CUST-56095,Adwoa Quaye,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-19,8,No
+REV-00409,CUST-21830,Abena Antwi,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Top quality item. Customer service was also very helpful.,2024-12-16,51,Yes
+REV-00410,CUST-90495,Nana Frimpong,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-01-14,3,Yes
+REV-00411,CUST-29360,Adwoa Darko,Accra,PROD-012,Xiaomi Smart Band 8,Technology,3,Decent product overall. Nothing special but does the job.,2024-12-15,50,Yes
+REV-00412,CUST-49552,Bright Frimpong,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,It is okay. Delivery took longer than expected to Kumasi.,2025-01-14,3,Yes
+REV-00413,CUST-83659,Emmanuel Antwi,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,2,Disappointed with the quality. Not worth the price at all.,2024-12-29,52,Yes
+REV-00414,CUST-10235,Olivia Boateng,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,5,Outstanding experience. Already recommended to friends.,2024-12-30,1,Yes
+REV-00415,CUST-84127,Kweku Essien,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,1,Not happy with my purchase. Would not recommend this product.,2025-02-13,7,Yes
+REV-00416,CUST-51879,Fiifi Adjei,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,The Tecno Camon 20 Smartphone exceeded my expectations. Worth every pesewa.,2025-01-15,3,Yes
+REV-00417,CUST-18885,Emmanuel Dompreh,Accra,PROD-008,JBL Bluetooth Speaker,Technology,4,Super fast shipping to Accra. Product is exactly what I needed.,2025-01-06,2,Yes
+REV-00418,CUST-65004,Fiifi Peprah,Accra,PROD-012,Xiaomi Smart Band 8,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-01-24,4,No
+REV-00419,CUST-72847,Kwabena Amoah,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2024-12-22,51,No
+REV-00420,CUST-44226,Kweku Acheampong,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-12,2,Yes
+REV-00421,CUST-22203,Patience Kabu,Kumasi,PROD-003,Samsung Galaxy A54,Technology,4,Top quality item. Customer service was also very helpful.,2025-02-04,6,Yes
+REV-00422,CUST-17019,Kweku Inkoom,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,5,Top quality item. Customer service was also very helpful.,2024-12-28,52,Yes
+REV-00423,CUST-46899,Akua Bonsu,Kumasi,PROD-004,Apple AirPods Pro,Technology,2,Poor packaging. Item arrived slightly damaged.,2025-02-15,7,Yes
+REV-00424,CUST-17144,Josephine Mensah,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2024-12-27,52,No
+REV-00425,CUST-22712,Ama Tetteh,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-01,1,Yes
+REV-00426,CUST-25139,Akua Nkrumah,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,5,The Speedo Swim Goggles exceeded my expectations. Worth every pesewa.,2025-03-04,10,No
+REV-00427,CUST-81319,Ernest Ofori,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-02-13,7,Yes
+REV-00428,CUST-15848,Kwesi Crankson,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-01-25,4,No
+REV-00429,CUST-97486,Kweku Adjei,Accra,PROD-005,Puma Training T-Shirt,Sportswear,4,Super fast shipping to Accra. Product is exactly what I needed.,2024-12-27,52,Yes
+REV-00430,CUST-17993,Ernest Opoku,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Product is fine. Packaging could be improved though.,2025-02-04,6,No
+REV-00431,CUST-49171,Akosua Nkrumah,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2025-01-28,5,Yes
+REV-00432,CUST-68856,Maame Amoah,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,1,Delivery took too long and product did not match the description.,2024-12-24,52,Yes
+REV-00433,CUST-20271,Grace Quaye,Accra,PROD-013,New Balance Running Shoes,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-01-23,4,Yes
+REV-00434,CUST-18783,Akosua Laryea,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,5,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-02-21,8,No
+REV-00435,CUST-91665,Beatrice Peprah,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2024-12-14,50,Yes
+REV-00436,CUST-83752,Kweku Forson,Accra,PROD-007,Under Armour Compression Tights,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2024-12-23,52,Yes
+REV-00437,CUST-73646,Isaac Boateng,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2025-02-14,7,Yes
+REV-00438,CUST-61877,Patience Bonsu,Kumasi,PROD-005,Puma Training T-Shirt,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2024-12-16,51,Yes
+REV-00439,CUST-54284,Akua Gyan,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,5,Super fast shipping to Kumasi. Product is exactly what I needed.,2024-12-14,50,Yes
+REV-00440,CUST-49384,Daniel Hackman,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,4,Very satisfied. The product arrived on time and in perfect condition.,2024-12-26,52,Yes
+REV-00441,CUST-67896,Adjoa Peprah,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,1,Not happy with my purchase. Would not recommend this product.,2024-12-31,1,No
+REV-00442,CUST-30836,Yaw Gyan,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-02-01,5,No
+REV-00443,CUST-35265,Nana Owusu,Takoradi,PROD-003,Samsung Galaxy A54,Technology,2,Expected better quality from this brand. Very underwhelming.,2024-12-29,52,Yes
+REV-00444,CUST-36097,Afia Kumi,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,5,"Great quality, fast delivery. Will definitely order again.",2025-02-19,8,No
+REV-00445,CUST-58819,Regina Crankson,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,4,Very satisfied. The product arrived on time and in perfect condition.,2025-01-05,1,Yes
+REV-00446,CUST-31432,Kwesi Adjei,Kumasi,PROD-014,Anker USB-C Charging Hub,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-15,3,Yes
+REV-00447,CUST-85007,Adjoa Antwi,Kumasi,PROD-001,Nike Air Max Sneakers,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2025-03-05,10,Yes
+REV-00448,CUST-12628,Kwame Kabu,Accra,PROD-011,Speedo Swim Goggles,Sportswear,5,Super fast shipping to Accra. Product is exactly what I needed.,2025-01-31,5,Yes
+REV-00449,CUST-43081,Akua Eshun,Accra,PROD-011,Speedo Swim Goggles,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-03,1,No
+REV-00450,CUST-38601,Priscilla Gyan,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-01-06,2,No
+REV-00451,CUST-94848,Mensah Gyan,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Excellent product! Really happy with my purchase from the Accra store.,2025-02-05,6,Yes
+REV-00452,CUST-52616,Afia Dompreh,Accra,PROD-008,JBL Bluetooth Speaker,Technology,3,Decent product overall. Nothing special but does the job.,2025-02-13,7,Yes
+REV-00453,CUST-88647,Olivia Hackman,Accra,PROD-004,Apple AirPods Pro,Technology,1,Delivery took too long and product did not match the description.,2024-12-18,51,Yes
+REV-00454,CUST-64862,Olivia Laryea,Accra,PROD-012,Xiaomi Smart Band 8,Technology,2,Disappointed with the quality. Not worth the price at all.,2025-01-07,2,Yes
+REV-00455,CUST-39145,Francis Kabu,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-15,3,Yes
+REV-00456,CUST-22793,Isaac Frimpong,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,4,Top quality item. Customer service was also very helpful.,2025-01-10,2,Yes
+REV-00457,CUST-21704,Kwabena Jatoe,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,5,Top quality item. Customer service was also very helpful.,2025-02-14,7,Yes
+REV-00458,CUST-44152,Mensah Dosimey,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,3,Product is fine. Packaging could be improved though.,2025-01-18,3,Yes
+REV-00459,CUST-35499,Solomon Darko,Accra,PROD-008,JBL Bluetooth Speaker,Technology,2,Expected better quality from this brand. Very underwhelming.,2025-01-27,5,No
+REV-00460,CUST-29762,Kojo Quaye,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Product is fine. Packaging could be improved though.,2025-03-05,10,Yes
+REV-00461,CUST-33639,Akosua Essien,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,3,Works as described but the quality feels a little cheap.,2025-01-12,2,Yes
+REV-00462,CUST-69251,Afia Tetteh,Accra,PROD-011,Speedo Swim Goggles,Sportswear,3,Decent product overall. Nothing special but does the job.,2024-12-13,50,Yes
+REV-00463,CUST-90541,Grace Sarfo,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,1,Disappointed with the quality. Not worth the price at all.,2024-12-25,52,No
+REV-00464,CUST-79963,Nana Kumi,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,3,It is okay. Delivery took longer than expected to Kumasi.,2024-12-16,51,Yes
+REV-00465,CUST-98702,Kwame Bonsu,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,1,Delivery took too long and product did not match the description.,2024-12-14,50,Yes
+REV-00466,CUST-60272,Solomon Gyan,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,5,Outstanding experience. Already recommended to friends.,2024-12-22,51,Yes
+REV-00467,CUST-78195,Beatrice Inkoom,Accra,PROD-002,Adidas Running Shorts,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-01-26,4,No
+REV-00468,CUST-57087,Nana Amoah,Takoradi,PROD-015,Wilson Tennis Racket,Sportswear,5,Absolutely love it! Best purchase I have made this year.,2025-01-29,5,No
+REV-00469,CUST-12872,Solomon Amoah,Accra,PROD-001,Nike Air Max Sneakers,Sportswear,4,Impressive build quality. Works exactly as described.,2025-01-02,1,Yes
+REV-00470,CUST-43526,Francis Owusu,Takoradi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-02-13,7,Yes
+REV-00471,CUST-25176,Carl Crankson,Accra,PROD-011,Speedo Swim Goggles,Sportswear,4,Excellent product! Really happy with my purchase from the Accra store.,2025-02-17,8,No
+REV-00472,CUST-30070,Adjoa Mensah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,5,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-02-19,8,Yes
+REV-00473,CUST-89381,Kojo Peprah,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,5,Very satisfied. The product arrived on time and in perfect condition.,2025-02-11,7,Yes
+REV-00474,CUST-24943,Kweku Essien,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-09,2,Yes
+REV-00475,CUST-63707,Mensah Amoah,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Super fast shipping to Accra. Product is exactly what I needed.,2025-01-16,3,Yes
+REV-00476,CUST-40737,Kwame Mensah,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-01-14,3,Yes
+REV-00477,CUST-21807,Solomon Acheampong,Accra,PROD-015,Wilson Tennis Racket,Sportswear,2,Expected better quality from this brand. Very underwhelming.,2024-12-27,52,Yes
+REV-00478,CUST-44619,Priscilla Owusu,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,4,Impressive build quality. Works exactly as described.,2025-01-10,2,Yes
+REV-00479,CUST-98705,Bright Sarfo,Accra,PROD-014,Anker USB-C Charging Hub,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-01-16,3,Yes
+REV-00480,CUST-94829,Fiifi Inkoom,Accra,PROD-002,Adidas Running Shorts,Sportswear,4,Excellent product! Really happy with my purchase from the Accra store.,2025-02-15,7,Yes
+REV-00481,CUST-22183,Josephine Inkoom,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-02-22,8,Yes
+REV-00482,CUST-60556,Isaac Peprah,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,It is okay. Delivery took longer than expected to Kumasi.,2025-01-08,2,Yes
+REV-00483,CUST-64529,Isaac Crankson,Accra,PROD-002,Adidas Running Shorts,Sportswear,4,"Great quality, fast delivery. Will definitely order again.",2024-12-23,52,Yes
+REV-00484,CUST-99714,Kojo Kabu,Kumasi,PROD-010,Lenovo IdeaPad Laptop,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-03-06,10,No
+REV-00485,CUST-44290,Bright Mensah,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-19,51,Yes
+REV-00486,CUST-96732,Esi Kabu,Kumasi,PROD-011,Speedo Swim Goggles,Sportswear,1,Delivery took too long and product did not match the description.,2025-01-24,4,Yes
+REV-00487,CUST-83183,Abena Mensah,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,3,It is okay. Delivery took longer than expected to Takoradi.,2025-03-04,10,Yes
+REV-00488,CUST-74441,Bright Bonsu,Kumasi,PROD-009,Reebok Classic Football Boots,Sportswear,1,Disappointed with the quality. Not worth the price at all.,2024-12-20,51,Yes
+REV-00489,CUST-94320,Ernest Nkrumah,Accra,PROD-005,Puma Training T-Shirt,Sportswear,1,Delivery took too long and product did not match the description.,2025-02-04,6,Yes
+REV-00490,CUST-75333,Daniel Hackman,Kumasi,PROD-002,Adidas Running Shorts,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-21,51,Yes
+REV-00491,CUST-64046,Kofi Mensah,Takoradi,PROD-008,JBL Bluetooth Speaker,Technology,4,Excellent product! Really happy with my purchase from the Takoradi store.,2025-01-21,4,Yes
+REV-00492,CUST-83706,Adjoa Dosimey,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-31,5,Yes
+REV-00493,CUST-83420,Isaac Kumi,Accra,PROD-006,Tecno Camon 20 Smartphone,Technology,4,Impressive build quality. Works exactly as described.,2025-01-14,3,No
+REV-00494,CUST-56548,Mensah Opoku,Accra,PROD-002,Adidas Running Shorts,Sportswear,4,Impressive build quality. Works exactly as described.,2025-01-15,3,Yes
+REV-00495,CUST-28408,Carl Appiah,Accra,PROD-012,Xiaomi Smart Band 8,Technology,4,"Great quality, fast delivery. Will definitely order again.",2025-01-29,5,Yes
+REV-00496,CUST-61497,Adjoa Dosimey,Accra,PROD-010,Lenovo IdeaPad Laptop,Technology,4,Fantastic value for money. Highly recommend to everyone.,2025-03-05,10,Yes
+REV-00497,CUST-93000,Efua Crankson,Kumasi,PROD-012,Xiaomi Smart Band 8,Technology,5,Very satisfied. The product arrived on time and in perfect condition.,2024-12-17,51,No
+REV-00498,CUST-10568,Beatrice Owusu,Takoradi,PROD-011,Speedo Swim Goggles,Sportswear,1,Delivery took too long and product did not match the description.,2025-01-30,5,No
+REV-00499,CUST-85832,Maame Frimpong,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,1,Disappointed with the quality. Not worth the price at all.,2025-02-18,8,Yes
+REV-00500,CUST-60418,Carl Bonsu,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-01-30,5,Yes
+REV-00501,CUST-27481,Kojo Peprah,Kumasi,PROD-007,Under Armour Compression Tights,Sportswear,5,Outstanding experience. Already recommended to friends.,2025-03-01,9,Yes
+REV-00502,CUST-82559,Adjoa Quaye,Takoradi,PROD-014,Anker USB-C Charging Hub,Technology,2,Poor packaging. Item arrived slightly damaged.,2025-02-20,8,Yes
+REV-00503,CUST-27389,Maame Asamoah,Takoradi,PROD-010,Lenovo IdeaPad Laptop,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-16,7,Yes
+REV-00504,CUST-84794,Carl Sarpong,Accra,PROD-012,Xiaomi Smart Band 8,Technology,3,Average quality for the price. Expected a bit more honestly.,2025-02-07,6,Yes
+REV-00505,CUST-59921,Adwoa Owusu,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,4,Excellent product! Really happy with my purchase from the Kumasi store.,2024-12-15,50,Yes
+REV-00506,CUST-42841,Adwoa Owusu,Kumasi,PROD-004,Apple AirPods Pro,Technology,5,Top quality item. Customer service was also very helpful.,2025-02-17,8,Yes
+REV-00507,CUST-69322,Kweku Antwi,Takoradi,PROD-004,Apple AirPods Pro,Technology,5,"Great quality, fast delivery. Will definitely order again.",2025-03-02,9,No
+REV-00508,CUST-60797,Carl Hackman,Takoradi,PROD-004,Apple AirPods Pro,Technology,5,Outstanding experience. Already recommended to friends.,2025-01-19,3,Yes
+REV-00509,CUST-68073,Kwabena Kumi,Takoradi,PROD-001,Nike Air Max Sneakers,Sportswear,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-02-11,7,Yes
+REV-00510,CUST-33255,Yaw Ofori,Takoradi,PROD-013,New Balance Running Shoes,Sportswear,5,Fantastic value for money. Highly recommend to everyone.,2025-01-25,4,Yes
+REV-00511,CUST-66165,Afia Dompreh,Takoradi,PROD-012,Xiaomi Smart Band 8,Technology,5,Very satisfied. The product arrived on time and in perfect condition.,2024-12-16,51,Yes
+REV-00512,CUST-71122,Adwoa Boateng,Takoradi,PROD-003,Samsung Galaxy A54,Technology,4,Super fast shipping to Takoradi. Product is exactly what I needed.,2025-01-14,3,Yes
+REV-00513,CUST-91968,Akua Essien,Kumasi,PROD-015,Wilson Tennis Racket,Sportswear,1,Not happy with my purchase. Would not recommend this product.,2025-02-26,9,Yes
+REV-00514,CUST-78236,Yaw Asamoah,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,Decent product overall. Nothing special but does the job.,2024-12-30,1,Yes
+REV-00515,CUST-55796,Kwabena Tetteh,Takoradi,PROD-007,Under Armour Compression Tights,Sportswear,2,Poor packaging. Item arrived slightly damaged.,2024-12-21,51,Yes
+REV-00516,CUST-91039,Beatrice Kabu,Kumasi,PROD-006,Tecno Camon 20 Smartphone,Technology,5,Outstanding experience. Already recommended to friends.,2025-02-24,9,Yes
+REV-00517,CUST-94182,Esi Boateng,Takoradi,PROD-002,Adidas Running Shorts,Sportswear,3,Average quality for the price. Expected a bit more honestly.,2025-01-05,1,Yes
+REV-00518,CUST-47070,Ama Opoku,Accra,PROD-007,Under Armour Compression Tights,Sportswear,3,It is okay. Delivery took longer than expected to Accra.,2025-02-03,6,Yes
+REV-00519,CUST-48854,Nana Hackman,Takoradi,PROD-009,Reebok Classic Football Boots,Sportswear,3,Works as described but the quality feels a little cheap.,2024-12-17,51,Yes
+REV-00520,CUST-18581,Adjoa Tetteh,Accra,PROD-002,Adidas Running Shorts,Sportswear,1,Poor packaging. Item arrived slightly damaged.,2025-02-11,7,No

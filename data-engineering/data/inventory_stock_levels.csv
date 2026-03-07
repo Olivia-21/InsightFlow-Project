@@ -1,0 +1,46 @@
+stock_id,product_id,product_name,region,quantity_in_stock,warehouse_location,last_restocked,last_updated
+STK-PROD-001-ACC,PROD-001,Nike Air Max Sneakers,Accra,106,Accra Central Warehouse,2025-02-05,2025-03-07
+STK-PROD-001-KUM,PROD-001,Nike Air Max Sneakers,Kumasi,100,Kumasi Central Warehouse,2025-02-15,2025-03-07
+STK-PROD-001-TAK,PROD-001,Nike Air Max Sneakers,Takoradi,134,Takoradi Central Warehouse,2025-02-18,2025-03-07
+STK-PROD-002-ACC,PROD-002,Adidas Running Shorts,Accra,73,Accra Central Warehouse,2025-02-17,2025-03-07
+STK-PROD-002-KUM,PROD-002,Adidas Running Shorts,Kumasi,83,Kumasi Central Warehouse,2025-02-25,2025-03-07
+STK-PROD-002-TAK,PROD-002,Adidas Running Shorts,Takoradi,66,Takoradi Central Warehouse,2025-02-05,2025-03-07
+STK-PROD-003-ACC,PROD-003,Samsung Galaxy A54,Accra,111,Accra Central Warehouse,2025-02-06,2025-03-07
+STK-PROD-003-KUM,PROD-003,Samsung Galaxy A54,Kumasi,8,Kumasi Central Warehouse,2025-02-06,2025-03-07
+STK-PROD-003-TAK,PROD-003,Samsung Galaxy A54,Takoradi,44,Takoradi Central Warehouse,2025-02-23,2025-03-07
+STK-PROD-004-ACC,PROD-004,Apple AirPods Pro,Accra,137,Accra Central Warehouse,2025-02-20,2025-03-07
+STK-PROD-004-KUM,PROD-004,Apple AirPods Pro,Kumasi,90,Kumasi Central Warehouse,2025-02-13,2025-03-07
+STK-PROD-004-TAK,PROD-004,Apple AirPods Pro,Takoradi,115,Takoradi Central Warehouse,2025-02-16,2025-03-07
+STK-PROD-005-ACC,PROD-005,Puma Training T-Shirt,Accra,147,Accra Central Warehouse,2025-02-23,2025-03-07
+STK-PROD-005-KUM,PROD-005,Puma Training T-Shirt,Kumasi,54,Kumasi Central Warehouse,2025-02-24,2025-03-07
+STK-PROD-005-TAK,PROD-005,Puma Training T-Shirt,Takoradi,18,Takoradi Central Warehouse,2025-03-05,2025-03-07
+STK-PROD-006-ACC,PROD-006,Tecno Camon 20 Smartphone,Accra,114,Accra Central Warehouse,2025-02-11,2025-03-07
+STK-PROD-006-KUM,PROD-006,Tecno Camon 20 Smartphone,Kumasi,104,Kumasi Central Warehouse,2025-02-13,2025-03-07
+STK-PROD-006-TAK,PROD-006,Tecno Camon 20 Smartphone,Takoradi,108,Takoradi Central Warehouse,2025-02-20,2025-03-07
+STK-PROD-007-ACC,PROD-007,Under Armour Compression Tights,Accra,137,Accra Central Warehouse,2025-02-12,2025-03-07
+STK-PROD-007-KUM,PROD-007,Under Armour Compression Tights,Kumasi,116,Kumasi Central Warehouse,2025-02-16,2025-03-07
+STK-PROD-007-TAK,PROD-007,Under Armour Compression Tights,Takoradi,30,Takoradi Central Warehouse,2025-02-11,2025-03-07
+STK-PROD-008-ACC,PROD-008,JBL Bluetooth Speaker,Accra,134,Accra Central Warehouse,2025-02-10,2025-03-07
+STK-PROD-008-KUM,PROD-008,JBL Bluetooth Speaker,Kumasi,105,Kumasi Central Warehouse,2025-02-17,2025-03-07
+STK-PROD-008-TAK,PROD-008,JBL Bluetooth Speaker,Takoradi,146,Takoradi Central Warehouse,2025-02-12,2025-03-07
+STK-PROD-009-ACC,PROD-009,Reebok Classic Football Boots,Accra,87,Accra Central Warehouse,2025-02-14,2025-03-07
+STK-PROD-009-KUM,PROD-009,Reebok Classic Football Boots,Kumasi,28,Kumasi Central Warehouse,2025-02-09,2025-03-07
+STK-PROD-009-TAK,PROD-009,Reebok Classic Football Boots,Takoradi,11,Takoradi Central Warehouse,2025-02-26,2025-03-07
+STK-PROD-010-ACC,PROD-010,Lenovo IdeaPad Laptop,Accra,7,Accra Central Warehouse,2025-03-05,2025-03-07
+STK-PROD-010-KUM,PROD-010,Lenovo IdeaPad Laptop,Kumasi,44,Kumasi Central Warehouse,2025-02-06,2025-03-07
+STK-PROD-010-TAK,PROD-010,Lenovo IdeaPad Laptop,Takoradi,144,Takoradi Central Warehouse,2025-02-08,2025-03-07
+STK-PROD-011-ACC,PROD-011,Speedo Swim Goggles,Accra,102,Accra Central Warehouse,2025-02-06,2025-03-07
+STK-PROD-011-KUM,PROD-011,Speedo Swim Goggles,Kumasi,38,Kumasi Central Warehouse,2025-02-27,2025-03-07
+STK-PROD-011-TAK,PROD-011,Speedo Swim Goggles,Takoradi,96,Takoradi Central Warehouse,2025-02-14,2025-03-07
+STK-PROD-012-ACC,PROD-012,Xiaomi Smart Band 8,Accra,66,Accra Central Warehouse,2025-02-15,2025-03-07
+STK-PROD-012-KUM,PROD-012,Xiaomi Smart Band 8,Kumasi,81,Kumasi Central Warehouse,2025-02-14,2025-03-07
+STK-PROD-012-TAK,PROD-012,Xiaomi Smart Band 8,Takoradi,142,Takoradi Central Warehouse,2025-02-16,2025-03-07
+STK-PROD-013-ACC,PROD-013,New Balance Running Shoes,Accra,101,Accra Central Warehouse,2025-02-17,2025-03-07
+STK-PROD-013-KUM,PROD-013,New Balance Running Shoes,Kumasi,18,Kumasi Central Warehouse,2025-02-18,2025-03-07
+STK-PROD-013-TAK,PROD-013,New Balance Running Shoes,Takoradi,26,Takoradi Central Warehouse,2025-02-11,2025-03-07
+STK-PROD-014-ACC,PROD-014,Anker USB-C Charging Hub,Accra,10,Accra Central Warehouse,2025-03-05,2025-03-07
+STK-PROD-014-KUM,PROD-014,Anker USB-C Charging Hub,Kumasi,31,Kumasi Central Warehouse,2025-02-10,2025-03-07
+STK-PROD-014-TAK,PROD-014,Anker USB-C Charging Hub,Takoradi,122,Takoradi Central Warehouse,2025-03-05,2025-03-07
+STK-PROD-015-ACC,PROD-015,Wilson Tennis Racket,Accra,36,Accra Central Warehouse,2025-02-10,2025-03-07
+STK-PROD-015-KUM,PROD-015,Wilson Tennis Racket,Kumasi,41,Kumasi Central Warehouse,2025-02-18,2025-03-07
+STK-PROD-015-TAK,PROD-015,Wilson Tennis Racket,Takoradi,72,Takoradi Central Warehouse,2025-02-13,2025-03-07

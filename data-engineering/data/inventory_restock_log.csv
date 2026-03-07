@@ -1,0 +1,181 @@
+log_id,product_id,product_name,region,movement_type,quantity_delta,reason,performed_by,log_date
+LOG-00001,PROD-002,Adidas Running Shorts,Accra,adjustment,-2,Inventory audit correction,Olivia Appiah,2025-01-23 16:11:56
+LOG-00002,PROD-013,New Balance Running Shoes,Accra,adjustment,-4,Inventory audit correction,Yaw Tetteh,2025-02-11 17:36:35
+LOG-00003,PROD-007,Under Armour Compression Tights,Kumasi,restock,91,Scheduled restock,Daniel Amoah,2024-12-24 10:58:45
+LOG-00004,PROD-005,Puma Training T-Shirt,Accra,restock,94,Scheduled restock,Kofi Darko,2025-01-09 06:48:22
+LOG-00005,PROD-006,Tecno Camon 20 Smartphone,Kumasi,return,10,Customer return,Francis Mensah,2024-12-22 09:04:17
+LOG-00006,PROD-009,Reebok Classic Football Boots,Takoradi,restock,25,Scheduled restock,Nana Asante,2025-01-28 00:51:49
+LOG-00007,PROD-001,Nike Air Max Sneakers,Takoradi,return,3,Customer return,Adjoa Kumi,2024-12-18 03:28:35
+LOG-00008,PROD-015,Wilson Tennis Racket,Accra,restock,51,Scheduled restock,Kojo Antwi,2024-12-15 02:26:08
+LOG-00009,PROD-012,Xiaomi Smart Band 8,Takoradi,restock,44,Scheduled restock,Afia Kabu,2024-12-26 08:15:25
+LOG-00010,PROD-002,Adidas Running Shorts,Kumasi,return,5,Customer return,Priscilla Essien,2025-01-18 08:05:53
+LOG-00011,PROD-009,Reebok Classic Football Boots,Kumasi,restock,42,Scheduled restock,Maame Quaye,2025-02-11 16:57:35
+LOG-00012,PROD-014,Anker USB-C Charging Hub,Takoradi,restock,60,Scheduled restock,Kweku Gyan,2024-12-23 01:59:59
+LOG-00013,PROD-013,New Balance Running Shoes,Accra,adjustment,-4,Inventory audit correction,Grace Eshun,2025-02-24 05:09:59
+LOG-00014,PROD-006,Tecno Camon 20 Smartphone,Takoradi,restock,87,Scheduled restock,Ernest Sarfo,2024-12-26 09:22:59
+LOG-00015,PROD-010,Lenovo IdeaPad Laptop,Kumasi,restock,90,Scheduled restock,Yaw Crankson,2024-12-23 05:43:06
+LOG-00016,PROD-015,Wilson Tennis Racket,Accra,return,5,Customer return,Carl Forson,2025-02-03 15:08:50
+LOG-00017,PROD-014,Anker USB-C Charging Hub,Takoradi,return,6,Customer return,Olivia Asante,2024-12-18 03:09:13
+LOG-00018,PROD-003,Samsung Galaxy A54,Kumasi,adjustment,-3,Inventory audit correction,Esi Acheampong,2024-12-27 21:24:55
+LOG-00019,PROD-011,Speedo Swim Goggles,Kumasi,restock,28,Scheduled restock,Bright Darko,2024-12-07 22:26:47
+LOG-00020,PROD-006,Tecno Camon 20 Smartphone,Takoradi,restock,52,Scheduled restock,Adjoa Dosimey,2025-01-31 02:17:57
+LOG-00021,PROD-013,New Balance Running Shoes,Kumasi,restock,81,Scheduled restock,Yaw Laryea,2025-01-03 12:52:08
+LOG-00022,PROD-010,Lenovo IdeaPad Laptop,Accra,return,4,Customer return,Kweku Eshun,2025-02-14 13:01:11
+LOG-00023,PROD-010,Lenovo IdeaPad Laptop,Takoradi,restock,83,Scheduled restock,Carl Sarfo,2025-01-06 20:29:19
+LOG-00024,PROD-014,Anker USB-C Charging Hub,Kumasi,restock,35,Scheduled restock,Abena Essien,2025-01-24 09:56:27
+LOG-00025,PROD-001,Nike Air Max Sneakers,Kumasi,adjustment,-1,Inventory audit correction,Daniel Amoah,2025-02-03 09:26:06
+LOG-00026,PROD-006,Tecno Camon 20 Smartphone,Takoradi,adjustment,-5,Inventory audit correction,Ama Forson,2024-12-08 17:33:41
+LOG-00027,PROD-011,Speedo Swim Goggles,Takoradi,restock,69,Scheduled restock,Mensah Frimpong,2025-02-26 17:10:12
+LOG-00028,PROD-007,Under Armour Compression Tights,Accra,return,9,Customer return,Kofi Inkoom,2025-02-07 14:26:10
+LOG-00029,PROD-001,Nike Air Max Sneakers,Accra,adjustment,-4,Inventory audit correction,Akua Eshun,2025-01-06 19:06:19
+LOG-00030,PROD-013,New Balance Running Shoes,Kumasi,adjustment,-5,Inventory audit correction,Bright Essien,2025-02-04 10:48:37
+LOG-00031,PROD-001,Nike Air Max Sneakers,Kumasi,restock,99,Scheduled restock,Priscilla Essien,2025-02-27 09:32:59
+LOG-00032,PROD-011,Speedo Swim Goggles,Accra,restock,89,Scheduled restock,Kweku Asante,2024-12-28 17:59:28
+LOG-00033,PROD-001,Nike Air Max Sneakers,Accra,restock,23,Scheduled restock,Bright Sarfo,2024-12-28 23:24:48
+LOG-00034,PROD-003,Samsung Galaxy A54,Accra,restock,57,Scheduled restock,Francis Mensah,2025-02-11 19:43:06
+LOG-00035,PROD-014,Anker USB-C Charging Hub,Accra,restock,15,Scheduled restock,Efua Owusu,2025-01-05 13:02:50
+LOG-00036,PROD-002,Adidas Running Shorts,Kumasi,restock,98,Scheduled restock,Ernest Eshun,2025-02-12 20:00:25
+LOG-00037,PROD-003,Samsung Galaxy A54,Accra,return,8,Customer return,Efua Frimpong,2025-01-07 00:05:56
+LOG-00038,PROD-014,Anker USB-C Charging Hub,Accra,return,7,Customer return,Daniel Darko,2025-01-26 15:47:51
+LOG-00039,PROD-009,Reebok Classic Football Boots,Accra,return,8,Customer return,Regina Eshun,2025-01-07 06:06:28
+LOG-00040,PROD-013,New Balance Running Shoes,Takoradi,adjustment,-1,Inventory audit correction,Kwesi Forson,2025-02-14 01:38:19
+LOG-00041,PROD-002,Adidas Running Shorts,Kumasi,return,4,Customer return,Adjoa Acheampong,2024-12-14 07:05:56
+LOG-00042,PROD-008,JBL Bluetooth Speaker,Accra,restock,11,Scheduled restock,Adjoa Dosimey,2025-02-24 11:16:11
+LOG-00043,PROD-007,Under Armour Compression Tights,Accra,adjustment,-3,Inventory audit correction,Adjoa Opoku,2025-01-25 21:32:14
+LOG-00044,PROD-014,Anker USB-C Charging Hub,Kumasi,restock,100,Scheduled restock,Priscilla Gyamfi,2025-02-27 07:32:00
+LOG-00045,PROD-009,Reebok Classic Football Boots,Accra,restock,38,Scheduled restock,Josephine Laryea,2025-01-19 22:14:33
+LOG-00046,PROD-014,Anker USB-C Charging Hub,Takoradi,return,4,Customer return,Olivia Quaye,2024-12-13 15:56:28
+LOG-00047,PROD-005,Puma Training T-Shirt,Kumasi,restock,97,Scheduled restock,Akua Appiah,2024-12-21 07:12:35
+LOG-00048,PROD-008,JBL Bluetooth Speaker,Accra,restock,40,Scheduled restock,Ama Dosimey,2024-12-25 03:48:39
+LOG-00049,PROD-005,Puma Training T-Shirt,Accra,adjustment,-4,Inventory audit correction,Emmanuel Dompreh,2024-12-18 11:43:12
+LOG-00050,PROD-015,Wilson Tennis Racket,Takoradi,restock,55,Scheduled restock,Grace Tetteh,2024-12-21 14:58:12
+LOG-00051,PROD-007,Under Armour Compression Tights,Takoradi,adjustment,-3,Inventory audit correction,Abena Crankson,2025-01-02 11:10:41
+LOG-00052,PROD-006,Tecno Camon 20 Smartphone,Accra,restock,93,Scheduled restock,Ernest Sarfo,2024-12-25 19:53:36
+LOG-00053,PROD-005,Puma Training T-Shirt,Accra,adjustment,-5,Inventory audit correction,Afia Opoku,2025-02-03 23:27:24
+LOG-00054,PROD-008,JBL Bluetooth Speaker,Takoradi,adjustment,-1,Inventory audit correction,Esi Darko,2024-12-28 07:39:28
+LOG-00055,PROD-002,Adidas Running Shorts,Accra,restock,83,Scheduled restock,Afia Bonsu,2024-12-13 09:26:07
+LOG-00056,PROD-009,Reebok Classic Football Boots,Accra,restock,38,Scheduled restock,Olivia Nkrumah,2025-01-14 03:29:21
+LOG-00057,PROD-002,Adidas Running Shorts,Accra,restock,73,Scheduled restock,Adjoa Amoah,2025-02-21 06:52:41
+LOG-00058,PROD-004,Apple AirPods Pro,Kumasi,restock,100,Scheduled restock,Mensah Mensah,2024-12-16 03:36:03
+LOG-00059,PROD-003,Samsung Galaxy A54,Takoradi,return,8,Customer return,Akua Bonsu,2024-12-23 12:40:14
+LOG-00060,PROD-006,Tecno Camon 20 Smartphone,Takoradi,restock,31,Scheduled restock,Maame Inkoom,2025-03-04 08:50:50
+LOG-00061,PROD-008,JBL Bluetooth Speaker,Accra,restock,95,Scheduled restock,Isaac Sarfo,2025-01-08 10:24:09
+LOG-00062,PROD-001,Nike Air Max Sneakers,Accra,restock,19,Scheduled restock,Fiifi Mensah,2025-02-02 16:07:56
+LOG-00063,PROD-006,Tecno Camon 20 Smartphone,Kumasi,return,1,Customer return,Regina Bonsu,2025-01-21 21:09:49
+LOG-00064,PROD-002,Adidas Running Shorts,Accra,restock,82,Scheduled restock,Mensah Antwi,2025-01-26 23:57:57
+LOG-00065,PROD-009,Reebok Classic Football Boots,Accra,restock,22,Scheduled restock,Kweku Gyan,2025-02-23 01:12:20
+LOG-00066,PROD-012,Xiaomi Smart Band 8,Kumasi,adjustment,-3,Inventory audit correction,Francis Dompreh,2025-02-09 09:51:14
+LOG-00067,PROD-008,JBL Bluetooth Speaker,Kumasi,restock,68,Scheduled restock,Kwame Jatoe,2025-01-05 05:41:35
+LOG-00068,PROD-012,Xiaomi Smart Band 8,Kumasi,return,10,Customer return,Isaac Darko,2025-01-02 04:59:59
+LOG-00069,PROD-011,Speedo Swim Goggles,Takoradi,restock,28,Scheduled restock,Carl Antwi,2025-02-09 00:26:10
+LOG-00070,PROD-003,Samsung Galaxy A54,Kumasi,adjustment,-2,Inventory audit correction,Grace Kumi,2024-12-27 00:43:52
+LOG-00071,PROD-012,Xiaomi Smart Band 8,Accra,restock,58,Scheduled restock,Kweku Eshun,2025-03-02 03:53:37
+LOG-00072,PROD-011,Speedo Swim Goggles,Takoradi,return,8,Customer return,Beatrice Ofori,2025-01-01 18:12:55
+LOG-00073,PROD-015,Wilson Tennis Racket,Takoradi,restock,52,Scheduled restock,Olivia Peprah,2025-01-02 19:42:08
+LOG-00074,PROD-005,Puma Training T-Shirt,Accra,restock,84,Scheduled restock,Beatrice Inkoom,2025-02-25 23:45:38
+LOG-00075,PROD-010,Lenovo IdeaPad Laptop,Accra,adjustment,-5,Inventory audit correction,Emmanuel Forson,2024-12-17 16:45:45
+LOG-00076,PROD-001,Nike Air Max Sneakers,Kumasi,restock,69,Scheduled restock,Adwoa Opoku,2025-01-04 03:14:25
+LOG-00077,PROD-010,Lenovo IdeaPad Laptop,Takoradi,restock,48,Scheduled restock,Regina Forson,2024-12-13 06:34:02
+LOG-00078,PROD-013,New Balance Running Shoes,Kumasi,restock,68,Scheduled restock,Kofi Tetteh,2025-01-03 11:28:41
+LOG-00079,PROD-014,Anker USB-C Charging Hub,Takoradi,restock,16,Scheduled restock,Regina Gyan,2024-12-07 11:51:40
+LOG-00080,PROD-007,Under Armour Compression Tights,Kumasi,restock,16,Scheduled restock,Kwesi Frimpong,2025-01-10 00:04:03
+LOG-00081,PROD-015,Wilson Tennis Racket,Kumasi,return,9,Customer return,Adwoa Adjei,2025-02-14 05:52:10
+LOG-00082,PROD-005,Puma Training T-Shirt,Accra,restock,65,Scheduled restock,Akosua Forson,2024-12-28 05:58:32
+LOG-00083,PROD-001,Nike Air Max Sneakers,Kumasi,restock,41,Scheduled restock,Ernest Sarfo,2025-01-14 18:00:07
+LOG-00084,PROD-015,Wilson Tennis Racket,Accra,restock,48,Scheduled restock,Akua Ofori,2025-01-30 17:59:59
+LOG-00085,PROD-007,Under Armour Compression Tights,Takoradi,restock,84,Scheduled restock,Kojo Quaye,2024-12-31 06:35:23
+LOG-00086,PROD-003,Samsung Galaxy A54,Kumasi,return,4,Customer return,Akua Gyan,2024-12-15 07:27:27
+LOG-00087,PROD-005,Puma Training T-Shirt,Takoradi,adjustment,-2,Inventory audit correction,Ernest Sarfo,2024-12-16 07:47:41
+LOG-00088,PROD-003,Samsung Galaxy A54,Takoradi,adjustment,-5,Inventory audit correction,Emmanuel Dosimey,2025-01-10 09:19:53
+LOG-00089,PROD-007,Under Armour Compression Tights,Kumasi,adjustment,-4,Inventory audit correction,Ama Asante,2025-02-19 10:42:10
+LOG-00090,PROD-007,Under Armour Compression Tights,Accra,restock,88,Scheduled restock,Akua Bonsu,2025-02-01 08:14:57
+LOG-00091,PROD-009,Reebok Classic Football Boots,Kumasi,restock,89,Scheduled restock,Francis Forson,2024-12-12 04:44:52
+LOG-00092,PROD-013,New Balance Running Shoes,Kumasi,restock,61,Scheduled restock,Kwame Dosimey,2025-02-23 09:34:01
+LOG-00093,PROD-013,New Balance Running Shoes,Takoradi,adjustment,-1,Inventory audit correction,Abena Eshun,2025-02-25 13:47:37
+LOG-00094,PROD-011,Speedo Swim Goggles,Accra,restock,86,Scheduled restock,Kweku Forson,2025-01-30 21:34:43
+LOG-00095,PROD-008,JBL Bluetooth Speaker,Takoradi,restock,17,Scheduled restock,Efua Asamoah,2025-02-16 18:50:29
+LOG-00096,PROD-012,Xiaomi Smart Band 8,Accra,restock,76,Scheduled restock,Adwoa Essien,2024-12-20 05:50:29
+LOG-00097,PROD-004,Apple AirPods Pro,Takoradi,restock,48,Scheduled restock,Akua Mensah,2025-02-23 05:13:23
+LOG-00098,PROD-008,JBL Bluetooth Speaker,Takoradi,restock,24,Scheduled restock,Yaw Mensah,2024-12-21 20:34:02
+LOG-00099,PROD-010,Lenovo IdeaPad Laptop,Accra,return,2,Customer return,Esi Tetteh,2024-12-17 01:25:18
+LOG-00100,PROD-008,JBL Bluetooth Speaker,Accra,return,8,Customer return,Olivia Owusu,2025-03-06 21:50:23
+LOG-00101,PROD-002,Adidas Running Shorts,Kumasi,adjustment,-2,Inventory audit correction,Esi Sarpong,2025-01-01 06:28:35
+LOG-00102,PROD-014,Anker USB-C Charging Hub,Takoradi,adjustment,-1,Inventory audit correction,Grace Gyamfi,2025-02-06 18:26:48
+LOG-00103,PROD-001,Nike Air Max Sneakers,Accra,restock,94,Scheduled restock,Esi Amoah,2025-01-25 15:54:58
+LOG-00104,PROD-012,Xiaomi Smart Band 8,Takoradi,return,4,Customer return,Isaac Kabu,2025-01-04 03:49:59
+LOG-00105,PROD-005,Puma Training T-Shirt,Takoradi,restock,85,Scheduled restock,Regina Kumi,2025-02-09 19:51:10
+LOG-00106,PROD-005,Puma Training T-Shirt,Kumasi,adjustment,-4,Inventory audit correction,Carl Sarfo,2024-12-21 09:15:10
+LOG-00107,PROD-001,Nike Air Max Sneakers,Kumasi,adjustment,-5,Inventory audit correction,Ernest Mensah,2025-02-01 08:45:06
+LOG-00108,PROD-005,Puma Training T-Shirt,Accra,return,8,Customer return,Kofi Jatoe,2024-12-20 12:36:02
+LOG-00109,PROD-008,JBL Bluetooth Speaker,Takoradi,adjustment,-1,Inventory audit correction,Fiifi Jatoe,2025-01-24 14:34:19
+LOG-00110,PROD-014,Anker USB-C Charging Hub,Takoradi,restock,54,Scheduled restock,Beatrice Laryea,2025-01-25 19:28:54
+LOG-00111,PROD-002,Adidas Running Shorts,Accra,restock,55,Scheduled restock,Patience Dosimey,2025-02-14 10:29:44
+LOG-00112,PROD-014,Anker USB-C Charging Hub,Accra,restock,94,Scheduled restock,Akua Nkrumah,2024-12-13 14:56:27
+LOG-00113,PROD-015,Wilson Tennis Racket,Takoradi,adjustment,-4,Inventory audit correction,Maame Asamoah,2025-02-20 06:48:29
+LOG-00114,PROD-011,Speedo Swim Goggles,Takoradi,restock,26,Scheduled restock,Bright Jatoe,2025-02-01 17:58:04
+LOG-00115,PROD-010,Lenovo IdeaPad Laptop,Kumasi,restock,15,Scheduled restock,Ama Amoah,2024-12-29 11:54:36
+LOG-00116,PROD-002,Adidas Running Shorts,Takoradi,restock,73,Scheduled restock,Isaac Hackman,2025-02-18 18:43:01
+LOG-00117,PROD-004,Apple AirPods Pro,Takoradi,restock,23,Scheduled restock,Maame Laryea,2025-02-18 09:10:26
+LOG-00118,PROD-007,Under Armour Compression Tights,Accra,restock,88,Scheduled restock,Kwesi Darko,2024-12-10 15:11:27
+LOG-00119,PROD-014,Anker USB-C Charging Hub,Takoradi,restock,66,Scheduled restock,Josephine Asante,2025-03-06 16:01:46
+LOG-00120,PROD-003,Samsung Galaxy A54,Kumasi,restock,99,Scheduled restock,Daniel Laryea,2024-12-19 22:25:02
+LOG-00121,PROD-011,Speedo Swim Goggles,Takoradi,return,4,Customer return,Nana Dompreh,2025-01-23 16:21:10
+LOG-00122,PROD-008,JBL Bluetooth Speaker,Takoradi,restock,38,Scheduled restock,Nana Amoah,2025-01-18 03:26:24
+LOG-00123,PROD-014,Anker USB-C Charging Hub,Takoradi,restock,21,Scheduled restock,Ama Appiah,2024-12-26 18:16:54
+LOG-00124,PROD-001,Nike Air Max Sneakers,Accra,restock,56,Scheduled restock,Carl Sarpong,2025-02-28 22:24:37
+LOG-00125,PROD-002,Adidas Running Shorts,Kumasi,restock,97,Scheduled restock,Beatrice Essien,2024-12-25 11:03:03
+LOG-00126,PROD-014,Anker USB-C Charging Hub,Accra,return,8,Customer return,Solomon Jatoe,2025-01-10 14:40:14
+LOG-00127,PROD-010,Lenovo IdeaPad Laptop,Takoradi,restock,18,Scheduled restock,Daniel Sarfo,2025-02-05 17:27:08
+LOG-00128,PROD-007,Under Armour Compression Tights,Accra,return,2,Customer return,Kojo Opoku,2025-01-04 22:55:09
+LOG-00129,PROD-002,Adidas Running Shorts,Accra,adjustment,-1,Inventory audit correction,Francis Inkoom,2024-12-09 04:31:40
+LOG-00130,PROD-004,Apple AirPods Pro,Kumasi,restock,59,Scheduled restock,Emmanuel Acheampong,2025-03-01 16:56:18
+LOG-00131,PROD-014,Anker USB-C Charging Hub,Accra,restock,19,Scheduled restock,Francis Bonsu,2025-02-27 20:05:20
+LOG-00132,PROD-009,Reebok Classic Football Boots,Takoradi,return,5,Customer return,Olivia Owusu,2025-01-29 00:08:10
+LOG-00133,PROD-012,Xiaomi Smart Band 8,Accra,return,8,Customer return,Kwesi Asante,2024-12-10 03:12:20
+LOG-00134,PROD-006,Tecno Camon 20 Smartphone,Kumasi,restock,35,Scheduled restock,Patience Owusu,2024-12-20 12:33:57
+LOG-00135,PROD-004,Apple AirPods Pro,Takoradi,restock,94,Scheduled restock,Abena Bonsu,2025-01-23 22:04:00
+LOG-00136,PROD-002,Adidas Running Shorts,Takoradi,return,1,Customer return,Emmanuel Acheampong,2025-01-16 09:54:35
+LOG-00137,PROD-010,Lenovo IdeaPad Laptop,Takoradi,return,2,Customer return,Cecilia Kabu,2024-12-19 13:40:27
+LOG-00138,PROD-005,Puma Training T-Shirt,Takoradi,restock,23,Scheduled restock,Kofi Essien,2025-01-25 06:48:13
+LOG-00139,PROD-004,Apple AirPods Pro,Takoradi,restock,65,Scheduled restock,Isaac Gyan,2025-02-20 21:07:28
+LOG-00140,PROD-014,Anker USB-C Charging Hub,Accra,restock,17,Scheduled restock,Ama Quaye,2025-01-27 20:44:35
+LOG-00141,PROD-010,Lenovo IdeaPad Laptop,Kumasi,restock,80,Scheduled restock,Isaac Owusu,2025-01-13 14:03:58
+LOG-00142,PROD-013,New Balance Running Shoes,Kumasi,restock,65,Scheduled restock,Grace Frimpong,2024-12-18 05:19:42
+LOG-00143,PROD-008,JBL Bluetooth Speaker,Accra,return,6,Customer return,Emmanuel Quaye,2025-01-09 07:32:26
+LOG-00144,PROD-007,Under Armour Compression Tights,Accra,restock,39,Scheduled restock,Akosua Mensah,2024-12-29 01:14:30
+LOG-00145,PROD-007,Under Armour Compression Tights,Takoradi,return,10,Customer return,Kofi Mensah,2025-03-01 18:50:00
+LOG-00146,PROD-012,Xiaomi Smart Band 8,Accra,restock,19,Scheduled restock,Abena Frimpong,2025-01-18 13:54:33
+LOG-00147,PROD-003,Samsung Galaxy A54,Kumasi,restock,50,Scheduled restock,Emmanuel Bonsu,2025-01-04 09:22:15
+LOG-00148,PROD-003,Samsung Galaxy A54,Takoradi,adjustment,-1,Inventory audit correction,Yaw Acheampong,2024-12-31 07:00:20
+LOG-00149,PROD-009,Reebok Classic Football Boots,Accra,adjustment,-2,Inventory audit correction,Daniel Gyan,2025-01-11 15:01:02
+LOG-00150,PROD-013,New Balance Running Shoes,Takoradi,restock,93,Scheduled restock,Esi Opoku,2025-03-03 16:47:26
+LOG-00151,PROD-005,Puma Training T-Shirt,Kumasi,return,9,Customer return,Kweku Owusu,2025-01-09 15:43:08
+LOG-00152,PROD-015,Wilson Tennis Racket,Kumasi,return,8,Customer return,Afia Adjei,2024-12-26 18:19:02
+LOG-00153,PROD-015,Wilson Tennis Racket,Accra,return,4,Customer return,Akua Tetteh,2024-12-18 22:01:25
+LOG-00154,PROD-006,Tecno Camon 20 Smartphone,Takoradi,restock,14,Scheduled restock,Esi Crankson,2025-02-08 02:23:44
+LOG-00155,PROD-013,New Balance Running Shoes,Kumasi,restock,12,Scheduled restock,Regina Boateng,2025-01-02 05:50:28
+LOG-00156,PROD-005,Puma Training T-Shirt,Takoradi,adjustment,-1,Inventory audit correction,Abena Eshun,2025-02-27 23:18:08
+LOG-00157,PROD-010,Lenovo IdeaPad Laptop,Kumasi,adjustment,-4,Inventory audit correction,Ernest Crankson,2024-12-11 07:29:44
+LOG-00158,PROD-004,Apple AirPods Pro,Accra,adjustment,-4,Inventory audit correction,Francis Owusu,2025-02-09 02:50:57
+LOG-00159,PROD-005,Puma Training T-Shirt,Accra,return,6,Customer return,Ama Inkoom,2025-03-06 14:02:37
+LOG-00160,PROD-014,Anker USB-C Charging Hub,Kumasi,return,4,Customer return,Ama Inkoom,2025-02-15 11:12:16
+LOG-00161,PROD-014,Anker USB-C Charging Hub,Takoradi,adjustment,-1,Inventory audit correction,Kweku Laryea,2025-02-15 00:44:37
+LOG-00162,PROD-015,Wilson Tennis Racket,Takoradi,restock,78,Scheduled restock,Priscilla Sarfo,2025-01-31 14:15:38
+LOG-00163,PROD-012,Xiaomi Smart Band 8,Takoradi,return,5,Customer return,Fiifi Laryea,2025-01-21 08:57:48
+LOG-00164,PROD-012,Xiaomi Smart Band 8,Accra,restock,11,Scheduled restock,Afia Eshun,2024-12-15 07:18:55
+LOG-00165,PROD-004,Apple AirPods Pro,Takoradi,restock,53,Scheduled restock,Olivia Boateng,2025-02-04 18:19:44
+LOG-00166,PROD-005,Puma Training T-Shirt,Kumasi,restock,94,Scheduled restock,Kwesi Mensah,2024-12-19 01:39:17
+LOG-00167,PROD-005,Puma Training T-Shirt,Takoradi,restock,43,Scheduled restock,Maame Crankson,2025-01-20 22:13:32
+LOG-00168,PROD-001,Nike Air Max Sneakers,Kumasi,restock,69,Scheduled restock,Kofi Jatoe,2025-01-22 14:57:55
+LOG-00169,PROD-011,Speedo Swim Goggles,Takoradi,restock,62,Scheduled restock,Abena Adjei,2025-01-02 20:09:54
+LOG-00170,PROD-015,Wilson Tennis Racket,Takoradi,return,6,Customer return,Yaw Crankson,2024-12-24 10:58:24
+LOG-00171,PROD-005,Puma Training T-Shirt,Kumasi,restock,73,Scheduled restock,Kojo Antwi,2025-02-06 04:47:39
+LOG-00172,PROD-003,Samsung Galaxy A54,Accra,return,1,Customer return,Kwabena Darko,2025-02-08 13:19:49
+LOG-00173,PROD-001,Nike Air Max Sneakers,Accra,return,8,Customer return,Bright Boateng,2025-01-29 17:32:00
+LOG-00174,PROD-012,Xiaomi Smart Band 8,Accra,restock,43,Scheduled restock,Kwesi Asante,2025-02-10 20:45:29
+LOG-00175,PROD-014,Anker USB-C Charging Hub,Kumasi,return,1,Customer return,Esi Jatoe,2024-12-17 14:22:09
+LOG-00176,PROD-002,Adidas Running Shorts,Takoradi,adjustment,-5,Inventory audit correction,Yaw Bonsu,2024-12-26 19:27:07
+LOG-00177,PROD-006,Tecno Camon 20 Smartphone,Takoradi,restock,97,Scheduled restock,Carl Acheampong,2025-02-07 07:42:18
+LOG-00178,PROD-007,Under Armour Compression Tights,Kumasi,restock,13,Scheduled restock,Bright Kumi,2025-01-08 12:34:24
+LOG-00179,PROD-007,Under Armour Compression Tights,Takoradi,restock,70,Scheduled restock,Mensah Asante,2024-12-22 13:33:21
+LOG-00180,PROD-006,Tecno Camon 20 Smartphone,Accra,restock,29,Scheduled restock,Ama Appiah,2025-02-04 03:09:42
