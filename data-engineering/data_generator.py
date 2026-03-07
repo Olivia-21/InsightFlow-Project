@@ -141,7 +141,7 @@ def generate_customer_reviews(n=520):
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"✅  customer_reviews_weekly.csv  — {len(rows)} rows")
+    print(f" customer_reviews_weekly.csv  — {len(rows)} rows")
     return rows
 
 
@@ -202,7 +202,7 @@ def generate_online_orders(n=650):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"✅  online_orders_api_simulation.json  — {len(orders)} records")
+    print(f" online_orders_api_simulation.json  — {len(orders)} records")
     return orders
 
 
@@ -211,7 +211,7 @@ def generate_online_orders(n=650):
 # ═══════════════════════════════════════════════════════════════════
 
 def generate_inventory(restock_entries=180):
-    # ── 3a: products master table ──────────────────────────────────
+    # 3a: products master table 
     products_path = "./data/inventory_products_master.csv"
     with open(products_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
@@ -233,9 +233,9 @@ def generate_inventory(restock_entries=180):
                 "reorder_level":   random.randint(10, 30),
                 "is_active":       "TRUE",
             })
-    print(f"✅  inventory_products_master.csv  — {len(PRODUCTS)} products")
+    print(f"  inventory_products_master.csv  — {len(PRODUCTS)} products")
 
-    # ── 3b: current stock levels per region ───────────────────────
+    # 3b: current stock levels per region 
     stock_path = "./data/inventory_stock_levels.csv"
     stock_rows = []
     for p in PRODUCTS:
@@ -255,9 +255,9 @@ def generate_inventory(restock_entries=180):
         writer = csv.DictWriter(f, fieldnames=list(stock_rows[0].keys()))
         writer.writeheader()
         writer.writerows(stock_rows)
-    print(f"✅  inventory_stock_levels.csv  — {len(stock_rows)} stock entries ({len(PRODUCTS)} products × {len(REGIONS)} regions)")
+    print(f"  inventory_stock_levels.csv  — {len(stock_rows)} stock entries ({len(PRODUCTS)} products × {len(REGIONS)} regions)")
 
-    # ── 3c: restock / movement log ────────────────────────────────
+    # 3c: restock / movement log 
     log_path = "./data/inventory_restock_log.csv"
     log_rows = []
     movement_types = ["restock", "restock", "restock", "adjustment", "return"]
@@ -283,7 +283,7 @@ def generate_inventory(restock_entries=180):
         writer = csv.DictWriter(f, fieldnames=list(log_rows[0].keys()))
         writer.writeheader()
         writer.writerows(log_rows)
-    print(f"✅  inventory_restock_log.csv  — {len(log_rows)} movement entries")
+    print(f"  inventory_restock_log.csv  — {len(log_rows)} movement entries")
 
 
 # ═══════════════════════════════════════════════════════════════════
