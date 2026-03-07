@@ -295,4 +295,4 @@ if __name__ == "__main__":
     generate_customer_reviews(n=520)
     generate_online_orders(n=650)
     generate_inventory(restock_entries=180)
-    print("\n All files saved\n")
+    print("\n All sample files saved\n")
