@@ -1,0 +1,86 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# InsightFlow — docker-compose.yml
+# Carl Nyameakyere Crankson | Data Engineer B
+#
+# TWO USAGE MODES:
+#
+# MODE 1 — Carl's standalone (sample data, no pipeline needed):
+#   docker-compose up dashboard
+#   → Opens on http://localhost:8501
+#   → Reads from the Excel sample data file
+#
+# MODE 2 — Full team integration (uses live warehouse DB):
+#   1. Copy this file to the project root and merge with the team's compose
+#   2. Set DATA_SOURCE=postgres in config.py (or via environment variable below)
+#   3. docker-compose up (starts warehouse + dashboard together)
+#   → Dashboard reads from postgres-warehouse:5433
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+version: "3.9"
+
+services:
+
+  # ── Carl's Dashboard (Mode 1 — standalone with sample data) ─────────────────
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: insightflow-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount data folder so you can swap the Excel file without rebuilding
+      - ./data:/app/data
+      # Mount dashboard code for live reload during development
+      - ./dashboard:/app/dashboard
+    environment:
+      # Toggle between "excel" (sample data) and "postgres" (live warehouse)
+      - DATA_SOURCE=excel
+      # Warehouse connection — only used when DATA_SOURCE=postgres
+      - DB_HOST=postgres-warehouse
+      - DB_PORT=5433
+      - DB_NAME=insightflow_warehouse
+      - DB_USER=warehouse_user
+      - DB_PASSWORD=warehouse_pass
+    networks:
+      - insightflow-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── PostgreSQL Warehouse (Mode 2 — team integration) ─────────────────────────
+  # Uncomment this block when integrating with the team's pipeline
+  # This matches the service name expected by Data Engineer A (Emmanuel Kabu)
+  #
+  # postgres-warehouse:
+  #   image: postgres:15
+  #   container_name: postgres-warehouse
+  #   ports:
+  #     - "5433:5432"
+  #   environment:
+  #     POSTGRES_DB: insightflow_warehouse
+  #     POSTGRES_USER: warehouse_user
+  #     POSTGRES_PASSWORD: warehouse_pass
+  #   volumes:
+  #     - warehouse-data:/var/lib/postgresql/data
+  #   networks:
+  #     - insightflow-net
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U warehouse_user -d insightflow_warehouse"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+
+networks:
+  insightflow-net:
+    name: insightflow-net
+    # When integrating with team compose:
+    # Change "name" to match the team's network name, or use:
+    # external: true
+
+volumes:
+  warehouse-data:
