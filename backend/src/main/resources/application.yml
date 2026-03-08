@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/insightflow_app
-    username: insightflow
-    password: insightflow_pass
+    url: jdbc:postgresql://localhost:5432/insight-flow
+    username: postgres
+    password: noah@123
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create   # Recreates schema on each startup (for development only)
     show-sql: false
     properties:
       hibernate:
@@ -18,7 +18,7 @@ spring:
       max-request-size: 10MB
   sql:
     init:
-      mode: always
+      mode: never   # Disabled since tables already exist and JPA manages schema
       data-locations: classpath:data.sql
 
 server:
@@ -30,6 +30,12 @@ app:
     expiration-ms: 86400000
   upload:
     directory: ./uploads
+
+minio:
+  url: http://localhost:9000
+  access-key: minioadmin
+  secret-key: minioadmin
+  bucket: insightflow-exports
 
 springdoc:
   api-docs:

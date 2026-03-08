@@ -10,6 +10,5 @@ public class DataSourceResponse {
     private String description;
     private String type;
     private String connectionUrl;
-    private String createdByName;
     private LocalDateTime createdAt;
 }

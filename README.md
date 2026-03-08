@@ -80,7 +80,7 @@ streamlit run data-engineering/dashboards/reporting_dashboard.py
 
 | Method | Endpoint | Description | Status |
 |--------|----------|-------------|--------|
-| POST | /api/auth/register | Register new user | Implemented |
+| POST | /api/auth/register | Register new users | Implemented |
 | POST | /api/auth/login | Login and get JWT | Implemented |
 | POST | /api/ingest/csv | Upload CSV file | Implemented |
 | POST | /api/ingest/json | Upload JSON data | Stub |
