@@ -1,7 +1,7 @@
 -- =========================================
 -- 1. USERS
 -- =========================================
-CREATE TABLE Users (
+CREATE TABLE IF NOT EXISTS Users (
     user_id     SERIAL PRIMARY KEY,
     name        VARCHAR(100) NOT NULL,
     email       VARCHAR(150) UNIQUE NOT NULL,
@@ -25,7 +25,7 @@ INSERT INTO Users (name, email, password, phone, address, role) VALUES
 -- =========================================
 -- 2. STORES
 -- =========================================
-CREATE TABLE Stores (
+CREATE TABLE IF NOT EXISTS Stores (
     store_id    SERIAL PRIMARY KEY,
     store_name  VARCHAR(150) NOT NULL,
     email       VARCHAR(150),
@@ -42,7 +42,7 @@ INSERT INTO Stores (store_name, email, phone, address) VALUES
 -- =========================================
 -- 3. CATEGORIES
 -- =========================================
-CREATE TABLE Categories (
+CREATE TABLE IF NOT EXISTS Categories (
     category_id   SERIAL PRIMARY KEY,
     category_name VARCHAR(100) NOT NULL,
     description   TEXT
@@ -59,7 +59,7 @@ INSERT INTO Categories (category_name, description) VALUES
 -- =========================================
 -- 4. PRODUCTS
 -- =========================================
-CREATE TABLE Products (
+CREATE TABLE IF NOT EXISTS Products (
     product_id   SERIAL PRIMARY KEY,
     name         VARCHAR(150) NOT NULL,
     description  TEXT,
@@ -91,7 +91,7 @@ INSERT INTO Products (name, description, price, category_id, store_id) VALUES
 -- =========================================
 -- 5. STORE INVENTORY
 -- =========================================
-CREATE TABLE StoreInventory (
+CREATE TABLE IF NOT EXISTS StoreInventory (
     store_inventory_id SERIAL PRIMARY KEY,
     store_id           INT,
     product_id         INT,
@@ -109,7 +109,7 @@ BEGIN
     NEW.last_updated = CURRENT_TIMESTAMP;
     RETURN NEW;
 END;
-$$ LANGUAGE plpgsql;
+$ LANGUAGE plpgsql;
 
 CREATE TRIGGER trg_store_inventory_last_updated
 BEFORE UPDATE ON StoreInventory
@@ -137,7 +137,7 @@ INSERT INTO StoreInventory (store_id, product_id, quantity_available) VALUES
 -- =========================================
 -- 6. ORDERS
 -- =========================================
-CREATE TABLE Orders (
+CREATE TABLE IF NOT EXISTS Orders (
     order_id     SERIAL PRIMARY KEY,
     user_id      INT,
     order_date   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -158,7 +158,7 @@ INSERT INTO Orders (user_id, status, total_amount) VALUES
 -- =========================================
 -- 7. ORDER ITEMS
 -- =========================================
-CREATE TABLE OrderItems (
+CREATE TABLE IF NOT EXISTS OrderItems (
     order_item_id SERIAL PRIMARY KEY,
     order_id      INT,
     product_id    INT,
@@ -186,7 +186,7 @@ INSERT INTO OrderItems (order_id, product_id, quantity, unit_price) VALUES
 -- =========================================
 -- 8. FEEDBACK CATEGORIES
 -- =========================================
-CREATE TABLE FeedbackCategories (
+CREATE TABLE IF NOT EXISTS FeedbackCategories (
     feedback_category_id SERIAL PRIMARY KEY,
     category_name        VARCHAR(100) NOT NULL,
     description          TEXT
@@ -202,7 +202,7 @@ INSERT INTO FeedbackCategories (category_name, description) VALUES
 -- =========================================
 -- 9. REVIEWS
 -- =========================================
-CREATE TABLE Reviews (
+CREATE TABLE IF NOT EXISTS Reviews (
     review_id            SERIAL PRIMARY KEY,
     user_id              INT,
     product_id           INT,
@@ -230,7 +230,7 @@ INSERT INTO Reviews (user_id, product_id, rating, comment, feedback_category_id)
 -- =========================================
 -- 10. CARTS
 -- =========================================
-CREATE TABLE Carts (
+CREATE TABLE IF NOT EXISTS Carts (
     cart_id    SERIAL PRIMARY KEY,
     user_id    INT NOT NULL UNIQUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -244,7 +244,7 @@ BEGIN
     NEW.updated_at = CURRENT_TIMESTAMP;
     RETURN NEW;
 END;
-$$ LANGUAGE plpgsql;
+$ LANGUAGE plpgsql;
 
 CREATE TRIGGER trg_carts_updated_at
 BEFORE UPDATE ON Carts
@@ -256,7 +256,7 @@ INSERT INTO Carts (user_id) VALUES (2),(3),(4),(5),(6),(7),(8);
 -- =========================================
 -- 11. CART ITEMS
 -- =========================================
-CREATE TABLE CartItems (
+CREATE TABLE IF NOT EXISTS CartItems (
     cart_item_id SERIAL PRIMARY KEY,
     cart_id      INT NOT NULL,
     product_id   INT NOT NULL,
@@ -274,7 +274,7 @@ BEGIN
     NEW.updated_at = CURRENT_TIMESTAMP;
     RETURN NEW;
 END;
-$$ LANGUAGE plpgsql;
+$ LANGUAGE plpgsql;
 
 CREATE TRIGGER trg_cartitems_updated_at
 BEFORE UPDATE ON CartItems
@@ -293,3 +293,4 @@ INSERT INTO CartItems (cart_id, product_id, quantity) VALUES
 (6, 12, 1),
 (6, 13, 1),
 (7,  8, 1);
+

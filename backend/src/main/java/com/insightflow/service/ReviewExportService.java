@@ -34,7 +34,7 @@ public class ReviewExportService {
     public String exportReviews() throws Exception {
 
         List<Review> reviews = reviewRepository.findAll();
-
+        System.out.println("Exporting " + reviews.size() + " reviews to CSV...");
         ByteArrayOutputStream outputStream = csvGenerator.generateCsv(reviews);
 
         String objectName = "reviews/reviews_" + System.currentTimeMillis() + ".csv";
