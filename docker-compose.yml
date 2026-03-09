@@ -1,19 +1,19 @@
 version: '3.8'
 
 services:
-  postgres-app:
+  postgres:
     image: postgres:16-alpine
     container_name: insightflow-app-db
     environment:
-      POSTGRES_DB: insightflow_app
+      POSTGRES_DB: insight-flow
       POSTGRES_USER: insightflow
       POSTGRES_PASSWORD: insightflow_pass
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
       - pgdata-app:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U insightflow -d insightflow_app"]
+      test: [ "CMD-SHELL", "pg_isready -U insightflow -d insight-flow" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -31,7 +31,7 @@ services:
       - pgdata-warehouse:/var/lib/postgresql/data
       - ./data-engineering/warehouse/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U insightflow_wh -d insightflow_warehouse"]
+      test: [ "CMD-SHELL", "pg_isready -U insightflow_wh -d insightflow_warehouse" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -49,7 +49,7 @@ services:
     volumes:
       - minio-data:/data
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      test: [ "CMD", "curl", "-f", "http://localhost:9000/minio/health/live" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -62,7 +62,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-app:5432/insightflow_app
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/insight-flow
       SPRING_DATASOURCE_USERNAME: insightflow
       SPRING_DATASOURCE_PASSWORD: insightflow_pass
       MINIO_URL: http://minio:9000
@@ -70,7 +70,7 @@ services:
       MINIO_SECRET_KEY: minioadmin
       MINIO_BUCKET: insightflow-exports
     depends_on:
-      postgres-app:
+      postgres:
         condition: service_healthy
       minio:
         condition: service_healthy

@@ -149,3 +149,22 @@ Additional MapStruct mappers generated for all model classes:
 - PipelineMapper
 
 These will be automatically implemented by MapStruct annotation processor once compilation succeeds.
+
+Final Step: Data Migration
+To move your local data into the Docker volume, run this command in your terminal:
+
+```bash
+pg_dump -U postgres -a -d insight-flow | PGPASSWORD=insightflow_pass psql -h localhost -p 5434 -U insightflow -d insight-flow
+```
+
+Why run this?
+pg_dump -a: Extracts only the data (since the tables already exist).
+psql -p 5434: Sends that data to the Docker database.
+PGPASSWORD: Automatically handles the Docker database password.
+You will still be prompted for your local Postgres password (for the postgres user).
+
+Verification
+After running the migration:
+
+Refresh your backend export or check the logs.
+You can access the Docker database at any time using port 5434.
