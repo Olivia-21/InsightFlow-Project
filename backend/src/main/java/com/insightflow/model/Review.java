@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "reviews")
@@ -26,8 +26,8 @@ public class Review {
     private String reviewText;
 
     @CreationTimestamp
-    @Column(name = "review_date", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
-    private LocalDateTime reviewDate;
+    @Column(name = "review_date", nullable = false, updatable = false, columnDefinition = "DATE DEFAULT CURRENT_DATE")
+    private LocalDate reviewDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false, foreignKey = @ForeignKey(name = "fk_reviews_user_id"))

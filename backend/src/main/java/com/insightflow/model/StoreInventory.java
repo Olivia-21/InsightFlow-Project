@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "storeinventory", uniqueConstraints = {
@@ -38,8 +38,8 @@ public class StoreInventory {
     private Boolean needsReorder;
 
     @UpdateTimestamp
-    @Column(name = "last_updated", nullable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
-    private LocalDateTime lastUpdated;
+    @Column(name = "stock_date", nullable = false, columnDefinition = "DATE DEFAULT CURRENT_DATE")
+    private LocalDate stockDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "store_id", nullable = false, foreignKey = @ForeignKey(name = "fk_store_inventory_store_id"))

@@ -5,7 +5,7 @@ import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
@@ -38,8 +38,8 @@ public class Order {
     private String paymentMethod;
 
     @CreationTimestamp
-    @Column(name = "order_date", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
-    private LocalDateTime orderDate;
+    @Column(name = "order_date", nullable = false, updatable = false, columnDefinition = "DATE DEFAULT CURRENT_DATE")
+    private LocalDate orderDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false, foreignKey = @ForeignKey(name = "fk_orders_user_id"))

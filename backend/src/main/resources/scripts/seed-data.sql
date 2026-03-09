@@ -46,32 +46,32 @@ INSERT INTO Products (product_name, description, unit_price, reorder_level, is_a
 ('Electric Toothbrush',      'Sonic technology, 3 brushing modes',           49.99,  20, true,  'Oral-B',      6, 3, CURRENT_TIMESTAMP);
 
 -- 5. STORE INVENTORY
-INSERT INTO StoreInventory (store_id, product_id, opening_stock, closing_stock, unit_received, unit_sold, needs_reorder, last_updated) VALUES
-(1,  1, 150, 120, 20, 50, false, CURRENT_TIMESTAMP),
-(1,  2, 60,  45,  10, 25, false, CURRENT_TIMESTAMP),
-(1,  3, 250, 200, 30, 80, false, CURRENT_TIMESTAMP),
-(2,  4, 100, 80,  20, 40, false, CURRENT_TIMESTAMP),
-(2,  5, 200, 150, 50, 100, false, CURRENT_TIMESTAMP),
-(2,  6, 80,  60,  15, 35, false, CURRENT_TIMESTAMP),
-(3,  7, 120, 90,  25, 55, false, CURRENT_TIMESTAMP),
-(3,  8, 40,  30,  5,  15, false, CURRENT_TIMESTAMP),
-(3,  9, 150, 110, 30, 70, false, CURRENT_TIMESTAMP),
-(3, 10, 100, 75,  20, 45, false, CURRENT_TIMESTAMP),
-(3, 11, 250, 200, 40, 90, false, CURRENT_TIMESTAMP),
-(3, 12, 220, 180, 50, 90, false, CURRENT_TIMESTAMP),
-(3, 13, 300, 220, 60, 140, false, CURRENT_TIMESTAMP),
-(3, 14, 180, 130, 40, 90, false, CURRENT_TIMESTAMP),
-(3, 15, 130, 95,  30, 65, false, CURRENT_TIMESTAMP);
+INSERT INTO StoreInventory (store_id, product_id, opening_stock, closing_stock, unit_received, unit_sold, needs_reorder, stock_date) VALUES
+(1,  1, 150, 120, 20, 50, false, CURRENT_DATE),
+(1,  2, 60,  45,  10, 25, false, CURRENT_DATE),
+(1,  3, 250, 200, 30, 80, false, CURRENT_DATE),
+(2,  4, 100, 80,  20, 40, false, CURRENT_DATE),
+(2,  5, 200, 150, 50, 100, false, CURRENT_DATE),
+(2,  6, 80,  60,  15, 35, false, CURRENT_DATE),
+(3,  7, 120, 90,  25, 55, false, CURRENT_DATE),
+(3,  8, 40,  30,  5,  15, false, CURRENT_DATE),
+(3,  9, 150, 110, 30, 70, false, CURRENT_DATE),
+(3, 10, 100, 75,  20, 45, false, CURRENT_DATE),
+(3, 11, 250, 200, 40, 90, false, CURRENT_DATE),
+(3, 12, 220, 180, 50, 90, false, CURRENT_DATE),
+(3, 13, 300, 220, 60, 140, false, CURRENT_DATE),
+(3, 14, 180, 130, 40, 90, false, CURRENT_DATE),
+(3, 15, 130, 95,  30, 65, false, CURRENT_DATE);
 
 -- 6. ORDERS
 INSERT INTO Orders (user_id, status, total_amount, discount_applied, tax_amount, payment_method, order_date) VALUES
-(2, 'delivered',  789.98,  10.00, 60.00, 'Credit Card', CURRENT_TIMESTAMP),
-(3, 'shipped',     79.98,   0.00,  5.00, 'PayPal',      CURRENT_TIMESTAMP),
-(4, 'processing', 249.99,   5.00, 20.00, 'Bank Transfer', CURRENT_TIMESTAMP),
-(5, 'delivered',   82.98,   2.00,  6.50, 'Credit Card', CURRENT_TIMESTAMP),
-(6, 'cancelled',   42.00,   0.00,  3.50, 'Mobile Money', CURRENT_TIMESTAMP),
-(7, 'delivered',   44.98,   0.00,  3.50, 'Cash',        CURRENT_TIMESTAMP),
-(8, 'shipped',    699.99,  50.00, 55.00, 'Credit Card', CURRENT_TIMESTAMP);
+(2, 'delivered',  789.98,  10.00, 60.00, 'Credit Card', CURRENT_DATE),
+(3, 'shipped',     79.98,   0.00,  5.00, 'PayPal',      CURRENT_DATE),
+(4, 'processing', 249.99,   5.00, 20.00, 'Bank Transfer', CURRENT_DATE),
+(5, 'delivered',   82.98,   2.00,  6.50, 'Credit Card', CURRENT_DATE),
+(6, 'cancelled',   42.00,   0.00,  3.50, 'Mobile Money', CURRENT_DATE),
+(7, 'delivered',   44.98,   0.00,  3.50, 'Cash',        CURRENT_DATE),
+(8, 'shipped',    699.99,  50.00, 55.00, 'Credit Card', CURRENT_DATE);
 
 -- 7. ORDER ITEMS
 INSERT INTO OrderItems (order_id, product_id, quantity, unit_price, discount_applied, tax_amount) VALUES
@@ -99,16 +99,16 @@ INSERT INTO FeedbackCategories (category_name, description) VALUES
 
 -- 9. REVIEWS
 INSERT INTO Reviews (user_id, product_id, rating, review_text, feedback_category_id, review_date) VALUES
-(2,  2, 5, 'Excellent phone, very fast and great camera.', 1, CURRENT_TIMESTAMP),
-(2,  1, 4, 'Good sound quality, comfortable fit.', 1, CURRENT_TIMESTAMP),
-(3,  4, 5, 'Perfect for daily runs, very lightweight.', 1, CURRENT_TIMESTAMP),
-(3,  5, 4, 'Great fit and very comfortable.', 1, CURRENT_TIMESTAMP),
-(4,  8, 5, 'Sturdy desk, easy to assemble.', 1, CURRENT_TIMESTAMP),
-(5, 12, 5, 'Best yoga mat I have owned.', 1, CURRENT_TIMESTAMP),
-(5, 13, 4, 'Good resistance levels, durable bands.', 1, CURRENT_TIMESTAMP),
-(6, 10, 5, 'A must-read for every developer.', 1, CURRENT_TIMESTAMP),
-(7,  9, 4, 'Soft sheets, true to size.', 1, CURRENT_TIMESTAMP),
-(8,  2, 5, 'Worth every penny.', 1, CURRENT_TIMESTAMP);
+(2,  2, 5, 'Excellent phone, very fast and great camera.', 1, CURRENT_DATE),
+(2,  1, 4, 'Good sound quality, comfortable fit.', 1, CURRENT_DATE),
+(3,  4, 5, 'Perfect for daily runs, very lightweight.', 1, CURRENT_DATE),
+(3,  5, 4, 'Great fit and very comfortable.', 1, CURRENT_DATE),
+(4,  8, 5, 'Sturdy desk, easy to assemble.', 1, CURRENT_DATE),
+(5, 12, 5, 'Best yoga mat I have owned.', 1, CURRENT_DATE),
+(5, 13, 4, 'Good resistance levels, durable bands.', 1, CURRENT_DATE),
+(6, 10, 5, 'A must-read for every developer.', 1, CURRENT_DATE),
+(7,  9, 4, 'Soft sheets, true to size.', 1, CURRENT_DATE),
+(8,  2, 5, 'Worth every penny.', 1, CURRENT_DATE);
 
 -- 10. CARTS
 INSERT INTO Carts (user_id, created_at, updated_at) VALUES 
