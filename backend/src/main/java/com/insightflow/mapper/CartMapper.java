@@ -23,8 +23,8 @@ public interface CartMapper {
     Cart toEntity(CartDto dto);
 
     @Mapping(source = "product.productId", target = "productId")
-    @Mapping(source = "product.name", target = "productName")
-    @Mapping(source = "product.price", target = "unitPrice")
+    @Mapping(source = "product.productName", target = "productName")
+    @Mapping(source = "product.unitPrice", target = "unitPrice")
     CartItemDto toItemDto(CartItem cartItem);
 
     List<CartItemDto> toItemDtoList(List<CartItem> cartItems);

@@ -41,7 +41,7 @@ public class Users {
     private String role;
 
     @CreationTimestamp
-    @Column(name = "created_at", nullable = false, updatable = false)
+    @Column(name = "created_at", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime createdAt;
 
     @OneToOne(mappedBy = "users", cascade = CascadeType.ALL, orphanRemoval = true)

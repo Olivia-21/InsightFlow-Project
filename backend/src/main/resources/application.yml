@@ -7,6 +7,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create   # Recreates schema on each startup (for development only)
+    defer-datasource-initialization: true # Run scripts AFTER Hibernate creates tables
     show-sql: false
     properties:
       hibernate:
@@ -18,8 +19,8 @@ spring:
       max-request-size: 10MB
   sql:
     init:
-      mode: never   # Disabled since tables already exist and JPA manages schema
-      data-locations: classpath:data.sql
+      mode: always   # Enabled to seed data into the Docker volume
+      data-locations: classpath:scripts/seed-data.sql
 
 server:
   port: 8080

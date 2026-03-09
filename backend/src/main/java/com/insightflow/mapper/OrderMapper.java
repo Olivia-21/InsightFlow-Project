@@ -24,10 +24,10 @@ public interface OrderMapper {
     Order toEntity(OrderDto dto);
 
     @Mapping(source = "product.productId", target = "productId")
-    @Mapping(source = "product.name", target = "productName")
+    @Mapping(source = "product.productName", target = "productName")
     OrderItemDto toItemDto(OrderItem orderItem);
 
     List<OrderItemDto> toItemDtoList(List<OrderItem> orderItems);
-    
+
     List<OrderDto> toDtoList(List<Order> orders);
 }

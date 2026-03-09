@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "cartitems", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"cart_id", "product_id"}, name = "uk_cart_product")
+        @UniqueConstraint(columnNames = { "cart_id", "product_id" }, name = "uk_cart_product")
 })
 @Data
 @NoArgsConstructor
@@ -26,11 +26,11 @@ public class CartItem {
     private Integer quantity;
 
     @CreationTimestamp
-    @Column(name = "added_at", nullable = false, updatable = false)
+    @Column(name = "added_at", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime addedAt;
 
     @UpdateTimestamp
-    @Column(name = "updated_at", nullable = false)
+    @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime updatedAt;
 
     @ManyToOne(fetch = FetchType.LAZY)

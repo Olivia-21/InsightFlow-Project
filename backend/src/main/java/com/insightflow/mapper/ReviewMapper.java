@@ -15,7 +15,7 @@ public interface ReviewMapper {
 
     @Mapping(source = "users.userId", target = "userId")
     @Mapping(source = "product.productId", target = "productId")
-    @Mapping(source = "product.name", target = "productName")
+    @Mapping(source = "product.productName", target = "productName")
     @Mapping(source = "product.store.storeId", target = "storeId")
     @Mapping(source = "product.store.storeName", target = "storeName")
     ReviewDto toDto(Review review);

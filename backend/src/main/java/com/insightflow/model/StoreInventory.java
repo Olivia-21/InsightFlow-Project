@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "storeinventory", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"store_id", "product_id"}, name = "uk_store_inventory")
+        @UniqueConstraint(columnNames = { "store_id", "product_id" }, name = "uk_store_inventory")
 })
 @Getter
 @Setter
@@ -22,11 +22,23 @@ public class StoreInventory {
     @Column(name = "store_inventory_id")
     private Integer storeInventoryId;
 
-    @Column(name = "quantity_available", nullable = false)
-    private Integer quantityAvailable;
+    @Column(name = "opening_stock")
+    private Integer openingStock;
+
+    @Column(name = "closing_stock", nullable = false)
+    private Integer closingStock;
+
+    @Column(name = "unit_received")
+    private Integer unitReceived;
+
+    @Column(name = "unit_sold")
+    private Integer unitSold;
+
+    @Column(name = "needs_reorder")
+    private Boolean needsReorder;
 
     @UpdateTimestamp
-    @Column(name = "last_updated", nullable = false)
+    @Column(name = "last_updated", nullable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime lastUpdated;
 
     @ManyToOne(fetch = FetchType.LAZY)

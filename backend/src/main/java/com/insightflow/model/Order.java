@@ -28,8 +28,17 @@ public class Order {
     @Column(name = "total_amount", precision = 10, scale = 2)
     private BigDecimal totalAmount;
 
+    @Column(name = "discount_applied", precision = 10, scale = 2)
+    private BigDecimal discountApplied;
+
+    @Column(name = "tax_amount", precision = 10, scale = 2)
+    private BigDecimal taxAmount;
+
+    @Column(name = "payment_method", length = 50)
+    private String paymentMethod;
+
     @CreationTimestamp
-    @Column(name = "order_date", nullable = false, updatable = false)
+    @Column(name = "order_date", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime orderDate;
 
     @ManyToOne(fetch = FetchType.LAZY)

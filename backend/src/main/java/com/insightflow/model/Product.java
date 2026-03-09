@@ -22,17 +22,27 @@ public class Product {
     @Column(name = "product_id")
     private Integer productId;
 
-    @Column(name = "name", nullable = false, length = 150)
-    private String name;
+    @Column(name = "product_name", nullable = false, length = 150)
+    private String productName;
 
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
 
-    @Column(name = "price", nullable = false, precision = 10, scale = 2)
-    private BigDecimal price;
+    @Column(name = "unit_price", nullable = false, precision = 10, scale = 2)
+    private BigDecimal unitPrice;
+
+    @Column(name = "reorder_level")
+    private Integer reorderLevel;
+
+    @Builder.Default
+    @Column(name = "is_active", nullable = false)
+    private Boolean isActive = true;
+
+    @Column(name = "supplier", length = 150)
+    private String supplier;
 
     @CreationTimestamp
-    @Column(name = "created_at", nullable = false, updatable = false)
+    @Column(name = "created_at", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime createdAt;
 
     @ManyToOne(fetch = FetchType.LAZY)

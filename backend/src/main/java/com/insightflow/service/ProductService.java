@@ -70,11 +70,11 @@ public class ProductService {
     public ProductSummaryDto update(Integer id, ProductSummaryDto dto) {
         Product product = productRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Product not found with id: " + id));
-        
-        product.setName(dto.getName());
+
+        product.setProductName(dto.getName());
         product.setDescription(dto.getDescription());
-        product.setPrice(dto.getPrice());
-        
+        product.setUnitPrice(dto.getPrice());
+
         return productMapper.toSummaryDto(productRepository.save(product));
     }
 

@@ -22,11 +22,11 @@ public class Review {
     @Column(name = "rating", nullable = false)
     private Integer rating;
 
-    @Column(name = "comment", columnDefinition = "TEXT")
-    private String comment;
+    @Column(name = "review_text", columnDefinition = "TEXT")
+    private String reviewText;
 
     @CreationTimestamp
-    @Column(name = "review_date", nullable = false, updatable = false)
+    @Column(name = "review_date", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime reviewDate;
 
     @ManyToOne(fetch = FetchType.LAZY)

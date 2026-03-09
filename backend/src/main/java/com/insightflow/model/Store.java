@@ -33,11 +33,14 @@ public class Store {
     @Column(name = "phone", length = 20)
     private String phone;
 
-    @Column(name = "address", columnDefinition = "TEXT")
-    private String address;
+    @Column(name = "region", length = 100)
+    private String region;
+
+    @Column(name = "location", columnDefinition = "TEXT")
+    private String location;
 
     @CreationTimestamp
-    @Column(name = "created_at", nullable = false, updatable = false)
+    @Column(name = "created_at", nullable = false, updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime createdAt;
 
     @OneToMany(mappedBy = "store", cascade = CascadeType.ALL, orphanRemoval = true)
